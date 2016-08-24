@@ -138,3 +138,18 @@ a.post_title {
 .read_more {
     margin-top: 10px;
 }
+
+.resume {
+    list-style-type: none;
+}
+
+.resume-left {
+    list-style-type: none;
+    background-color: #337ab7;
+    height: 100%;
+    color: white;
+}
+
+.resume-left a{
+    color: white;
+}
