@@ -1,0 +1,140 @@
+/* Globals */
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+
+body {
+    font-family: "ubuntu", Helvetica, Arial, sans-serif;
+}
+
+
+hr {
+    border-width: 1px;
+    border-style: solid;
+    color: #ddd;
+}
+
+
+/*
+ * Override Bootstrap's default container.
+ */
+
+@media (min-width: 1200px) {
+    .container {
+        width: 970px;
+    }  
+}
+
+h1, h2{
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-weight: 100;
+}
+
+.navbar-brand {
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-size: 1.9em;
+    font-weight: 100;
+    letter-spacing: -1px;
+    text-transform: lowercase;
+}
+
+.homepage{
+    text-align: center;
+}
+
+.local-container {
+    margin-bottom: 50px;
+}
+
+.local-container h1, h2 {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.border-left {
+    border-left: 1px solid #ddd;
+}
+
+.blog-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.blog-title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 60px;
+    font-weight: normal;
+}
+
+.blog-description {
+    font-size: 20px;
+    color: #999;
+}
+
+
+#blog-footer {
+    padding: 10px;
+    background-color: #e6e6e6;
+    text-align: left;
+    font-weight: 200;
+}
+
+
+.social a{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.img-avatar {
+    display: block;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+
+
+.post {
+    margin-bottom: 50px;
+    list-style-type: none;
+}
+
+.post li {
+    margin-top: 50px;
+}
+
+.post li a{
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a.post_title {
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-size: 1.9em;
+    font-weight: 200;
+}
+
+.post_meta {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.post_sep {
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #A9A9A9;
+}
+
+.post_date {
+    color: #A9A9A9;
+}
+
+.read_more {
+    margin-top: 10px;
+}

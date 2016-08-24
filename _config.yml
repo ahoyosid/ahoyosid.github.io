@@ -1,0 +1,43 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Blog
+email: ahoyosidrobo@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    I'll start my blog here
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://ahoyosid.github.io" # the base hostname & protocol for your site
+twitter_username: ahoyosid 
+github_username:  ahoyosid
+
+gems: 
+    - jekyll-paginate
+paginate: 3
+
+# Build settings
+markdown: kramdown
+
+
+defaults:
+-
+    scope:
+        path: "" # an empty string here means all files in the project
+        type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+        author: Andres Hoyos-Idrobo
+        layout: "post"
+        category: posts
+        comments: true
+-
+    scope:
+        path: "" # an empty string here means all files in the project
+        type: "pages" # previously `post` in Jekyll 2.2.
+    values:
+        layout: "page"
+
+
