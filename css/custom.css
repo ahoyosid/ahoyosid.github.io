@@ -153,3 +153,21 @@ a.post_title {
 .resume-left a{
     color: white;
 }
+
+
+#blogroll {margin: 0 auto 3em auto; overflow: hidden;}
+
+#blogroll ul {list-style: none; margin: 0;}
+#blogroll h2 {
+    font-size: 1.429em;
+    margin-bottom: .25em;
+    padding: 0 3px;
+}
+
+#blogroll a:link, #blogroll a:visited {
+    color: #444;
+    display: block;
+    padding: .3em .25em;
+                        
+}
+
