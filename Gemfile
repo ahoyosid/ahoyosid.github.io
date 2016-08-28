@@ -5,4 +5,5 @@ gem 'stringex'
 gem "jekyll"
 gem "jekyll-paginate"
 gem 'github-pages'
-
+gem 'wdm'
+gem "rouge"
