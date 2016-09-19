@@ -11,7 +11,7 @@ profile.
 **A. Hoyos-Idrobo**, G. Varoquaux, J. Kahn, B. Thirion.
 Recursive nearest agglomeration (ReNA): fast clustering for
 approximation of structured signals. 2016.
-
+<a href="https://arxiv.org/abs/1609.04608" target="_blank">[pdf]</a>
 
 ## Published ##
 
