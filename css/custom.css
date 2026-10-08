@@ -1,7 +1,6 @@
 /* Globals */
 
 
-
 body {
     padding-top: 70px; /* room for the fixed navbar */
     font-family: "ubuntu", Helvetica, Arial, sans-serif;
@@ -54,22 +53,6 @@ h1, h2{
 }
 
 
-
-
-
-#blog-footer {
-    padding: 10px;
-    background-color: #e6e6e6;
-    text-align: left;
-    font-weight: 200;
-}
-
-
-.social a{
-    margin-right: 5px;
-    margin-left: 5px;
-}
-
 .img-avatar {
     display: block;
     width: 110px;
@@ -77,48 +60,6 @@ h1, h2{
     margin-right: auto;
     border-radius: 50%;
 }
-
-
-
-.post {
-    margin-bottom: 50px;
-    list-style-type: none;
-}
-
-.post li {
-    margin-top: 50px;
-}
-
-.post li a{
-    text-decoration: none;
-    text-transform: uppercase;
-}
-
-a.post_title {
-    font-family: 'Oswald', Helvetica, Arial, sans-serif;
-    font-size: 1.9em;
-    font-weight: 200;
-}
-
-.post_meta {
-    margin-top: 5px;
-    margin-bottom: 15px;
-}
-
-.post_sep {
-    padding-left: 5px;
-    padding-right: 5px;
-    color: #767676;
-}
-
-.post_date {
-    color: #767676;
-}
-
-.read_more {
-    margin-top: 10px;
-}
-
 
 
 .publications {
@@ -170,4 +111,77 @@ a.post_title {
     color: #2a6496;
     background: #eef4fa;
     border-radius: 10px;
+}
+
+/* Home page tagline: an h1 for structure, sized like a subheading */
+.jumbotron h1.tagline {
+    font-size: 30px;
+    margin: 0;
+}
+
+@media (max-width: 480px) {
+    .jumbotron h1.tagline {
+        font-size: 24px;
+    }
+}
+
+/* Keep entries without a figure aligned with those that have one
+   (figure 150px + .media-left padding 10px) */
+.publications .publication:not(.media) {
+    padding-left: 160px;
+}
+
+@media (max-width: 480px) {
+    .publications .publication:not(.media) {
+        padding-left: 106px;
+    }
+}
+
+/* Footer */
+#site-footer {
+    margin-top: 30px;
+    padding: 20px 0 15px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #ddd;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer-name {
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-size: 1.4em;
+    color: #333;
+}
+
+.social {
+    display: flex;
+    gap: 18px;
+}
+
+.social a {
+    color: #555;
+}
+
+.social a:hover,
+.social a:focus {
+    color: #337ab7;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    fill: currentColor;
+    vertical-align: middle;
+}
+
+.footer-legal {
+    margin: 12px 0 0;
+    font-size: 0.9em;
+    color: #555;
 }

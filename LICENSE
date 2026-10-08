@@ -11,8 +11,8 @@ This repository contains two kinds of material, under two licenses.
    this site. Licensed under the MIT License below.
 
 Third-party files keep their own licenses: Bootstrap (css/bootstrap.min.css,
-MIT) and Font Awesome (loaded from a CDN; icons CC BY 4.0, fonts SIL OFL 1.1,
-code MIT).
+MIT) and the Font Awesome Free icons inlined in _includes/footer.html
+(CC BY 4.0, https://fontawesome.com/license/free).
 
 -------------------------------------------------------------------------------
 

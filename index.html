@@ -6,7 +6,7 @@ nav_order: 1
 
 <div class="jumbotron">
     <div class="container homepage">
-        <h2>Machine learning &middot; learning to rank &middot; optimal transport &middot; causal inference</h2>
+        <h1 class="tagline">Machine learning &middot; learning to rank &middot; optimal transport &middot; causal inference</h1>
     </div>
 </div>
 
@@ -42,27 +42,6 @@ nav_order: 1
                 {% endfor %}
             </ul>
             <p><a href="{{ '/publications/' | prepend: site.baseurl }}">All publications &rarr;</a></p>
-
-            {% if site.posts.size > 0 %}
-            <h2>Recent posts</h2>
-            <ul class="post">
-                {% for post in site.posts limit:3 %}
-                    <li class="post_item">
-                        <a class="post_title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                        <div class="post_meta">
-                            <b class="post_date">{{ post.date | date: "%b %-d, %Y" }}</b>
-                        </div>
-
-                        {{ post.excerpt }}
-
-                        <a class="btn btn-primary read_more" role="button" href="{{ post.url | prepend: site.baseurl }}">Read more
-                        <i class="fa-solid fa-arrow-right"></i>
-                        </a>
-                        <hr>
-                    </li>
-                {% endfor %}
-            </ul>
-            {% endif %}
         </div>
     </div><!-- /row -->
 </div> <!-- /container -->
