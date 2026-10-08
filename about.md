@@ -1,6 +1,10 @@
 ---
 layout: page
 title: About
+description: >-
+    Background of Andrés Hoyos-Idrobo, Senior Research Scientist at Rakuten Group
+    in Paris: experience, education and research interests in learning to rank,
+    optimal transport and causal inference.
 nav_order: 2
 permalink: /about/
 redirect_from:
@@ -28,6 +32,7 @@ in 2017.
 To get in touch, [send me an email](mailto:{{ site.email }}). For my full
 career history, see my
 [LinkedIn profile](https://www.linkedin.com/in/andres-hoyos-idrobo-85b42024).
+ORCID: [0000-0003-1729-1927](https://orcid.org/0000-0003-1729-1927).
 
 
 ## Research interests ##

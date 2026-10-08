@@ -4,6 +4,14 @@
 body {
     padding-top: 70px; /* room for the fixed navbar */
     font-family: "ubuntu", Helvetica, Arial, sans-serif;
+    /* keep the footer at the bottom of the window on short pages */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#main-container {
+    flex: 1 0 auto;
 }
 
 
@@ -38,10 +46,6 @@ h1, h2{
 
 .local-container {
     margin-bottom: 50px;
-}
-
-.text-center {
-    text-align: center;
 }
 
 
@@ -80,9 +84,21 @@ h1, h2{
     border: 1px solid #ddd;
 }
 
+/* Phones: put the figure above the text so the text gets the full width */
 @media (max-width: 480px) {
+    .publications .media-left,
+    .publications .media-body {
+        display: block;
+        width: auto;
+        padding-right: 0;
+    }
+
+    .publications .media-left {
+        margin-bottom: 8px;
+    }
+
     .pub-figure {
-        width: 96px;
+        width: 220px;
     }
 }
 
@@ -114,7 +130,7 @@ h1, h2{
 
 @media (max-width: 480px) {
     .publications .publication:not(.media) {
-        padding-left: 106px;
+        padding-left: 0;
     }
 }
 
@@ -198,7 +214,8 @@ h1, h2{
     padding-right: 70px;
     font-size: 12px;
     white-space: pre-wrap;
-    word-break: break-word;
+    word-break: normal;
+    overflow-x: auto;
 }
 
 .copy-bibtex {

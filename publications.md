@@ -1,10 +1,13 @@
 ---
 title: Publications
+description: >-
+    Publications by Andrés Hoyos-Idrobo on learning to rank, optimal transport,
+    causal inference and neuroimaging, with summaries, figures and BibTeX.
 nav_order: 3
 permalink: /publications/
 ---
 
-The full list, with citations, is on my
+Citation counts are on my
 [Google Scholar](https://scholar.google.com/citations?user=J3344dQAAAAJ) profile.
 
 {% assign by_year = site.data.publications | group_by: "year" %}

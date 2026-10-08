@@ -1,0 +1,10 @@
+# Sites that block automated link checkers (they work in a browser).
+# One regular expression per line.
+^https://doi\.org/10\.1145/
+^https://dl\.acm\.org/
+^https://doi\.org/10\.1109/
+^https://ieeexplore\.ieee\.org/
+^https://openreview\.net/
+^https://(www\.)?linkedin\.com/
+^https://(twitter|x)\.com/
+^https://scholar\.google\.com/
