@@ -12,9 +12,9 @@ Rakuten Group, Inc. in Paris, where I work in the Search & Relevance team.
 I design deep-learning-based learning-to-rank systems at scale for
 Rakuten Ichiba, from custom models to their training pipelines.
 
-Previously, I was part of the Rakuten Institute of Technology, working on
-recommender systems. Before that, I collaborated with several Rakuten
-businesses, such as Rakuten France and Rakuten Viber.
+Previously, I was part of the Rakuten Institute of Technology (2017–2025),
+where I worked on recommender systems and, earlier, collaborated with several
+Rakuten businesses, such as Rakuten France and Rakuten Viber.
 
 I did my PhD in computer science at Inria and Université Paris-Saclay, in the
 [Parietal team](https://team.inria.fr/parietal/), co-supervised by
@@ -55,8 +55,10 @@ stay fast and reliable on large, high-dimensional data.
 
 * **Senior Research Scientist**, Search & Relevance team, Rakuten Group, Inc., Paris (2026–present).
   Deep learning to rank at scale for Rakuten Ichiba.
-* **Rakuten Institute of Technology** (2017–2026): recommender systems.
-* **Collaborations with Rakuten businesses**, including Rakuten France and Rakuten Viber.
+* **Rakuten Institute of Technology** (2017–2025)
+    * Recommender systems (2021–2025)
+    * Collaborations with Rakuten businesses, including Rakuten France and
+      Rakuten Viber (2017–2021)
 
 
 ## Education ##
