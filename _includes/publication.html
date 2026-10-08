@@ -13,6 +13,10 @@
     {% if include.pub.arxiv %}<a href="{{ include.pub.arxiv }}" target="_blank">[arXiv]</a>{% endif %}
     {% if include.pub.hal %}<a href="{{ include.pub.hal }}" target="_blank">[HAL]</a>{% endif %}
     {% if include.pub.code %}<a href="{{ include.pub.code }}" target="_blank">[code]</a>{% endif %}
+    {% if include.details %}
+    {% if include.pub.summary %}<p class="pub-summary">{{ include.pub.summary }}</p>{% endif %}
+    {% if include.pub.keywords %}<p class="pub-keywords">{% for kw in include.pub.keywords %}<span class="pub-keyword">{{ kw }}</span>{% endfor %}</p>{% endif %}
+    {% endif %}
     {% if include.pub.figure %}
     </div>
     {% endif %}

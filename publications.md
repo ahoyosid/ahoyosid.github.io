@@ -11,7 +11,7 @@ The full list, with citations, is on my
 {% for group in by_year %}
 <h2>{{ group.name }}</h2>
 <ul class="publications">
-{% for pub in group.items %}{% include publication.html pub=pub %}
+{% for pub in group.items %}{% include publication.html pub=pub details=true %}
 {% endfor %}
 </ul>
 {% endfor %}
