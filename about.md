@@ -7,7 +7,8 @@ permalink: /about/
 My name is Andrés Hoyos-Idrobo. I'm a Senior Research Scientist at
 Rakuten Group, Inc. in Paris, where I work in the Search & Relevance team.
 Previously, I was part of the Rakuten Institute of Technology, working on
-recommender systems.
+recommender systems. Before that, I collaborated with several Rakuten
+businesses, such as Rakuten France and Rakuten Viber.
 
 I did my PhD in computer science at Inria and Université Paris-Saclay, in the
 [Parietal team](https://team.inria.fr/parietal/), co-supervised by
