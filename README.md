@@ -1,7 +1,5 @@
 # ahoyosid.github.io
 
-## This is my personal webpage and blog ##
-Where I write about things that interest me, including machine learning, radomized algorithms and brains !
-
-
-
+Personal website of Andrés Hoyos-Idrobo: machine learning research,
+publications and resume. Built with Jekyll and served by GitHub Pages at
+<https://ahoyosid.github.io>. Publications live in `_data/publications.yml`.

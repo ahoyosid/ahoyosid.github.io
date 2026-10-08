@@ -169,3 +169,21 @@ a.post_title {
                         
 }
 
+
+.publications {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.publications li {
+    margin-bottom: 15px;
+}
+
+.intro .img-avatar {
+    float: right;
+    margin: 20px 0 10px 20px;
+}
+
+.intro {
+    overflow: hidden;
+}

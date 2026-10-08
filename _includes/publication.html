@@ -1,0 +1,8 @@
+<li class="publication">
+    {{ include.pub.authors | replace: "A. Hoyos-Idrobo", "<strong>A. Hoyos-Idrobo</strong>" }}.
+    <a href="{{ include.pub.url }}" target="_blank">{{ include.pub.title }}</a>.
+    <em>{{ include.pub.venue }}</em>, {{ include.pub.year }}.
+    {% if include.pub.arxiv %}<a href="{{ include.pub.arxiv }}" target="_blank">[arXiv]</a>{% endif %}
+    {% if include.pub.hal %}<a href="{{ include.pub.hal }}" target="_blank">[HAL]</a>{% endif %}
+    {% if include.pub.code %}<a href="{{ include.pub.code }}" target="_blank">[code]</a>{% endif %}
+</li>

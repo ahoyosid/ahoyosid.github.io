@@ -8,11 +8,11 @@
     {% include header.html %}
 
 
-    <!-- This is not realy a layout, I use it once to build my resume -->
+    <!-- This is not really a layout, I use it once to build my resume -->
     <div class="jumbotron">
         <div class="container">
-            <h1> Andrés Hoyos Idrobo </h1>
-            <h2 style="text-align: left;">PhD candidate</h2>
+            <h1> Andrés Hoyos-Idrobo </h1>
+            <h2 style="text-align: left;">Senior Research Scientist</h2>
         </div>
     </div>
     <div class="container">
@@ -23,7 +23,7 @@
 
                 <div class="col-sm-6">
                     <h2>Signal Processing</h2>
-                    Feature extraction, inverse problems: debluring, denoising, superresolution
+                    Feature extraction, inverse problems: deblurring, denoising, superresolution
                 </div>
 
                 <div class="col-sm-6">
@@ -45,18 +45,15 @@
                 <div class="col-sm-6">
                     <h2>Software Development</h2>
                     Version control,
-                    Continious integration,
+                    Continuous integration,
                     Test-driven
                 </div>
 
                 <div class="col-sm-6">
                     <h2>Frameworks</h2>
-                    <!--Spark, Hadoop, Pandas-->
-                </div>
-
-                <div class="col-sm-6">
-                    <h2>Data Visualization</h2>
-                    <!--Matplotlib, Seaborn, D3.js-->
+                    scikit-learn,
+                    nilearn (contributor),
+                    Spark
                 </div>
 
 
@@ -65,7 +62,7 @@
                     <ul class="resume">
                         <li>
                             <strong>Spanish</strong>
-                            Mother tonge
+                            Mother tongue
                         </li>
                         <li>
                             <strong>English</strong>
@@ -99,13 +96,6 @@
                 </div>
 
                 <div class="col-sm-12">
-                    <h2>Personal Qualities</h2>
-                    <ul>
-                        <li>Cool</li>
-                    </ul>
-                </div>
-
-                <div class="col-sm-12">
                     <h2>Personal Interests</h2>
                     <div class="col-sm-6">
                         <i class="fa-regular fa-pen-to-square fa-2x"></i>
@@ -122,18 +112,18 @@
 
                     <ul class="resume">
                         <li><a href="mailto:{{ site.email }}">
-                            <i class="fa-solid fa-envelope fa-2x"></i> andres.hoyos-idrobo at inria.fr</a>
+                            <i class="fa-solid fa-envelope fa-2x"></i> {{ site.email }}</a>
                         </li>
-                        <li><a href=https://twitter.com/ahoyosid tooltip=twitter>
+                        <li><a href="https://twitter.com/ahoyosid">
                             <i class="fa-brands fa-square-x-twitter fa-2x"></i> twitter.com/ahoyosid
                         </a> 
                         </li>
-                        <li><a href=https://github.com/ahoyosid tooltip=GitHub>
+                        <li><a href="https://github.com/ahoyosid">
                             <i class="fa-brands fa-square-github fa-2x"></i> github.com/ahoyosid
                         </a> 
                         </li>
-                        <li><a href=https://www.linkedin.com/in/andres-hoyos-idrobo-85b42024 tooltip=linkedin>
-                            <i class="fa-brands fa-linkedin fa-2x"></i> linkedin.com/in/andres-hoyos-idroboi-85b42024
+                        <li><a href="https://www.linkedin.com/in/andres-hoyos-idrobo-85b42024">
+                            <i class="fa-brands fa-linkedin fa-2x"></i> linkedin.com/in/andres-hoyos-idrobo-85b42024
                         </a> 
                         </li>
                     </ul>
@@ -147,10 +137,37 @@
                 <div>
                     <ul class="resume">
                         <li>
-                            <h3>PhD canditate in computer science @ Inria</h3>
-                            <b class="post_date">September 2014 - Current</b>
-                            <p><strong>Faster brain activity decoding: </strong>
-                            Finding faster statistical methods for large-scale fMRI analysis while increasing their stability and prediction capability. 
+                            <h3>
+                                <i class="fa-solid fa-briefcase"></i>
+                                Senior Research Scientist @ Rakuten Group, Inc., Paris
+                            </h3>
+                            <b class="post_date">Present</b>
+                            <p>Search &amp; Relevance team: relevance and ranking for e-commerce search</p>
+                        </li>
+                        <li>
+                            <h3>
+                                <i class="fa-solid fa-briefcase"></i>
+                                Rakuten Institute of Technology
+                            </h3>
+                            <p>Recommender systems</p>
+                        </li>
+                        <li>
+                            <h4>Selected work at Rakuten</h4>
+                            <p>Optimal transport for re-ranking (SIGIR 2023) and for aligning representations</p>
+                            <p>Counterfactual learning to rank for e-commerce search (SIGIR eCom 2022)</p>
+                            <p>Bias correction for treatment-effect estimation (ECML-PKDD 2024 workshops)</p>
+                            <p>LLMs and color language (Findings of EMNLP 2023); graph neural networks with annealing machines (NeurIPS 2024 workshop)</p>
+                            <p>Open source: <a href="https://github.com/rakutentech/spark-dirty-cat">spark-dirty-cat</a></p>
+                        </li>
+                        <li>
+                            <h3>
+                                <i class="fa-solid fa-graduation-cap"></i>
+                                PhD in computer science @ Inria / Université Paris-Saclay
+                            </h3>
+                            <b class="post_date">September 2014 - 2017</b>
+                            <p><strong>Thesis: </strong>
+                            <a href="https://theses.hal.science/tel-01526693">Ensembles of models in fMRI: stable learning in large-scale settings</a>.
+                            Faster statistical methods for large-scale fMRI analysis, with better stability and prediction.
                             </p>
                             <p>Python + Scikit-learn + statistical learning + cluster computing</p>
                             <p>Advisors: Bertrand Thirion, Gaël Varoquaux</p>
@@ -162,7 +179,7 @@
                             </h3>
                             <b class="post_date">September 2012 - 2013</b>
                             <p>Image/Signal Processing, Statistical Learning, Medical imaging</p>
-                            <p>Project: Optimization of radio frequency pulse design in high filed margnetic resonance imaging</p>
+                            <p>Project: Optimization of radio frequency pulse design in high field magnetic resonance imaging</p>
                             <p>Matlab + CUDA + mathematical optimization</p>
                             <p>Advisor: Nicolas Boulant</p>
                         </li>
@@ -170,22 +187,20 @@
                         <li>
                             <h3>
                                 <i class="fa-solid fa-graduation-cap"></i>
-                                Bs.C in Biomedical Enginieering @ UAO
+                                B.Sc. in Biomedical Engineering @ UAO
                             </h3>
                             <b class="post_date">September 2004 - 2010</b>
                             <p>Development of projects applied to biomechanics and biomedical signal processing</p>
-                            <p>Project: </p>
-                            <p>Matlab + Matrix fatorization</p>
+                            <p>Matlab + Matrix factorization</p>
                             <p>Advisor: Juan Diego Pulgarin</p>
                         </li>
                         <li>
                             <h3>
                                 <i class="fa-solid fa-graduation-cap"></i>
-                                Bs.C in Electronic Enginieering @ UAO
+                                B.Sc. in Electronic Engineering @ UAO
                             </h3>
                             <b class="post_date">September 2004 - 2010</b>
                             <p>Development of projects using neural networks, genetic algorithm, fuzzy logic, meta-heuristic, control, power electronics</p>
-                            <p>Project: </p>
                             <p>Matlab + Matrix factorization + Regularization</p>
                             <p>Advisor: Juan Diego Pulgarin</p>
                         </li>

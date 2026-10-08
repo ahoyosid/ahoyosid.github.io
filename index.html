@@ -1,14 +1,12 @@
 ---
 layout: default
-title: Blog
+title: Home
 ---
 
-<!-- Main jumbotron for a primary marketing message or call to action -->
 <div class="jumbotron">
     <div class="container homepage">
-        <h1>Machine learning and stuffs</h1>
-        <p>some interesting and ground breaking sentence</p>
-        <p>A powerful but simple image</p>
+        <h1>Andrés Hoyos-Idrobo</h1>
+        <p>Machine learning &middot; optimal transport &middot; learning to rank &middot; causal inference</p>
     </div>
 </div>
 
@@ -16,55 +14,50 @@ title: Blog
 <div class="container">
     <div class="row">
         <div class="col-sm-8">
-            <h2>Posts</h2>
+            <div class="intro">
+                <img class="img-avatar" src="{{ '/img/ahoyosid.png' | prepend: site.baseurl }}" alt="Andrés Hoyos-Idrobo">
+                <p>
+                    I'm a Senior Research Scientist at Rakuten Group, Inc. in Paris,
+                    in the Search &amp; Relevance team. Before that, I worked on
+                    recommender systems at the Rakuten Institute of Technology.
+                    My recent work covers optimal transport, learning to rank and
+                    counterfactual evaluation for e-commerce search, and bias
+                    correction for treatment-effect estimation.
+                </p>
+                <p>
+                    I did my PhD at Inria (Parietal team) and
+                    Université Paris-Saclay, building fast and stable statistical
+                    learning methods for large-scale brain imaging (fMRI).
+                    <a href="{{ '/about/' | prepend: site.baseurl }}">More about me &rarr;</a>
+                </p>
+            </div>
 
-            {% if paginator.posts.size > 0 %}
+            <h2>Recent publications</h2>
+            <ul class="publications">
+                {% for pub in site.data.publications limit:5 %}{% include publication.html pub=pub %}
+                {% endfor %}
+            </ul>
+            <p><a href="{{ '/publications/' | prepend: site.baseurl }}">All publications &rarr;</a></p>
+
+            {% if site.posts.size > 0 %}
+            <h2>Recent posts</h2>
             <ul class="post">
-                {% for post in paginator.posts %}
+                {% for post in site.posts limit:3 %}
                     <li class="post_item">
                         <a class="post_title" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
                         <div class="post_meta">
-                            <b class="post_author">{{ post.author }}</b>
-                            <b class="post_sep">•</b>
                             <b class="post_date">{{ post.date | date: "%b %-d, %Y" }}</b>
                         </div>
 
                         {{ post.excerpt }}
 
-                        <a class="btn btn-primary read_more" role="button" href="{{ post.url | prepend: site.baseurl }}">Read more 
+                        <a class="btn btn-primary read_more" role="button" href="{{ post.url | prepend: site.baseurl }}">Read more
                         <i class="fa-solid fa-arrow-right"></i>
                         </a>
                         <hr>
                     </li>
-                  {% endfor %}
-            </ul>
-            {% else %}
-            <p>No posts yet.</p>
-            {% endif %}
-            {% if paginator.total_pages > 1 %}
-            <div class="pagination">
-                {% if paginator.previous_page %}
-                    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-                {% else %}
-                    <span>&laquo; Prev</span>
-                {% endif %}
-
-                {% for page in (1..paginator.total_pages) %}
-                    {% if page == paginator.page %}
-                        <em>{{ page }}</em>
-                    {% elsif page == 1 %}
-                        <a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
-                    {% else %}
-                        <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-                    {% endif %}
                 {% endfor %}
-                
-                {% if paginator.next_page %}
-                    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-                {% else %}
-                    <span>Next &raquo;</span>
-                {% endif %}
-            </div>
+            </ul>
             {% endif %}
         </div>
 

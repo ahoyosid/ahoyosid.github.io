@@ -3,46 +3,23 @@ title: Publications
 permalink: /publications/
 ---
 
-Here are my most recent publications. A similar list can be found on my 
-[Google scholar](https://scholar.google.com/citations?user=J3344dQAAAAJ&hl) 
-profile.
+The full list, with citations, is on my
+[Google Scholar](https://scholar.google.com/citations?user=J3344dQAAAAJ) profile.
 
-## Submited ##
-**A. Hoyos-Idrobo**, G. Varoquaux, J. Kahn, B. Thirion.
-Recursive nearest agglomeration (ReNA): fast clustering for
-approximation of structured signals. 2016.
-<a href="https://arxiv.org/abs/1609.04608" target="_blank">[pdf]</a>
+{% assign by_year = site.data.publications | group_by: "year" %}
+{% for group in by_year %}
+<h2>{{ group.name }}</h2>
+<ul class="publications">
+{% for pub in group.items %}{% include publication.html pub=pub %}
+{% endfor %}
+</ul>
+{% endfor %}
 
-## Published ##
-
-
-G. Varoquaux, P. Raamana, D. Engemann, **A. Hoyos-Idrobo**, Y. Schwartz,
-B. Thirion.
-Assessing and tuning brain decoders: cross-validation, caveats, and guidelines.
-2016. 
-<a href="https://arxiv.org/pdf/1606.05201" target="_blank">[pdf]</a>
-
-
-**A. Hoyos-Idrobo**, G. Varoquaux, B. Thirion.
-fast brain decoding with random sampling and random projections.
-International Workshop on Pattern Recognition in Neuroimaging, 2015. 
-<a href="https://inria.hal.science/hal-01313814/document" target="_blank">[pdf]</a>
-
-
-**A. Hoyos-Idrobo**, Y. Schwartz, G. Varoquaux, B. Thirion.
-Improving sparse recovery on structured images with bagged clustering.
-International Workshop on Pattern Recognition in Neuroimaging, 73-76, 2015. 
-<a href="https://hal.science/hal-01174335/document" target="_blank">[pdf]</a>
-
-
-B. Thirion, **A. Hoyos-Idrobo**, J. Kahn, G. Varoquaux.
-Fast clustering for scalable statistical analysis on structured images.
-ICML workshop on Statistics, Machine Learning and Neuroscience, 2015.
-<a href="https://arxiv.org/pdf/1511.04898" target="_blank">[pdf]</a>
-
-
-**A. Hoyos-Idrobo**, P. Weiss, A. Massire, A. Amadon, N. Boulant. 
-On variant strategies to solve the magnitude least squares optimization 
-problem in parallel transmission pulse design and under strict SAR and power 
-constraints.IEEE transactions on medical imaging, 3: 739-748, 2014. 
-<a href="https://arxiv.org/pdf/1309.1567" target="_blank">[pdf]</a>
+<h2>PhD thesis</h2>
+<ul class="publications">
+<li class="publication">
+    <strong>A. Hoyos-Idrobo</strong>.
+    <a href="https://theses.hal.science/tel-01526693" target="_blank">Ensembles of models in fMRI: stable learning in large-scale settings</a>.
+    <em>Université Paris-Saclay</em>, 2017.
+</li>
+</ul>
