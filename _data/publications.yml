@@ -59,8 +59,6 @@
   venue: "OpenReview preprint"
   year: 2020
   url: "https://openreview.net/forum?id=IpsTSvfIB6"
-  figure: "/img/papers/birkhoff-von-neumann.svg"
-  figure_alt: "A doubly-stochastic matrix written as a weighted sum of permutation matrices (Birkhoff-von-Neumann decomposition), learned differentiably"
 
 - title: "Local Bures-Wasserstein transport: a practical and fast mapping approximation"
   authors: "A. Hoyos-Idrobo"
@@ -102,8 +100,6 @@
   year: 2017
   url: "https://doi.org/10.1109/PRNI.2017.7981503"
   hal: "https://hal.science/hal-01552237"
-  figure: "/img/papers/randomized-parcellation-inference.svg"
-  figure_alt: "Randomized parcellation based inference: test on many random parcellations and aggregate the votes into a statistical map"
 
 - title: "Assessing and tuning brain decoders: cross-validation, caveats, and guidelines"
   authors: "G. Varoquaux, P. Raamana, D. Engemann, A. Hoyos-Idrobo, Y. Schwartz, B. Thirion"
@@ -120,8 +116,6 @@
   year: 2016
   url: "https://doi.org/10.1109/PRNI.2016.7552350"
   hal: "https://inria.hal.science/hal-01313814"
-  figure: "/img/papers/random-projections-decoding.svg"
-  figure_alt: "Fast brain decoding: compress the n x p data matrix with random sampling or random projections before fitting the decoder"
 
 - title: "Improving sparse recovery on structured images with bagged clustering"
   authors: "A. Hoyos-Idrobo, Y. Schwartz, G. Varoquaux, B. Thirion"
