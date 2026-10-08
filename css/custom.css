@@ -152,3 +152,17 @@ a.post_title {
 .intro {
     overflow: hidden;
 }
+
+.pub-figure {
+    width: 150px;
+    height: auto;
+    padding: 3px;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+@media (max-width: 480px) {
+    .pub-figure {
+        width: 96px;
+    }
+}

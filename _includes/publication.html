@@ -1,8 +1,19 @@
-<li class="publication">
+<li class="publication{% if include.pub.figure %} media{% endif %}">
+    {% if include.pub.figure %}
+    <div class="media-left">
+        <a href="{{ include.pub.figure | prepend: site.baseurl }}" target="_blank">
+            <img class="pub-figure" src="{{ include.pub.figure | prepend: site.baseurl }}" alt="{{ include.pub.figure_alt | escape }}" width="150" height="113" loading="lazy">
+        </a>
+    </div>
+    <div class="media-body">
+    {% endif %}
     {{ include.pub.authors | replace: "A. Hoyos-Idrobo", "<strong>A. Hoyos-Idrobo</strong>" }}.
     <a href="{{ include.pub.url }}" target="_blank">{{ include.pub.title }}</a>.
     <em>{{ include.pub.venue }}</em>, {{ include.pub.year }}.
     {% if include.pub.arxiv %}<a href="{{ include.pub.arxiv }}" target="_blank">[arXiv]</a>{% endif %}
     {% if include.pub.hal %}<a href="{{ include.pub.hal }}" target="_blank">[HAL]</a>{% endif %}
     {% if include.pub.code %}<a href="{{ include.pub.code }}" target="_blank">[code]</a>{% endif %}
+    {% if include.pub.figure %}
+    </div>
+    {% endif %}
 </li>

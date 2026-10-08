@@ -1,12 +1,15 @@
 # Publications, newest first. Rendered by _includes/publication.html on the
 # home page (5 most recent) and on /publications/ (grouped by year).
-# Fields: title, authors, venue, year, url (main link), arxiv, hal, code (optional).
+# Fields: title, authors, venue, year, url (main link), arxiv, hal, code,
+# figure + figure_alt (optional; schematic in img/papers/).
 
 - title: "Annealing machine-assisted learning of graph neural network for combinatorial optimization"
   authors: "P. Loyola, K. Hasegawa, A. Hoyos-Idrobo, K. Ono, T. Suzumura, Y. Hirate, M. Yamaoka"
   venue: "NeurIPS 2024 Workshop on Machine Learning with New Compute Paradigms"
   year: 2024
   url: "https://arxiv.org/abs/2501.05845"
+  figure: "/img/papers/annealing-gnn.svg"
+  figure_alt: "Annealing machine-assisted GNN: compress the graph, solve it on an annealing machine, use partial solutions to guide a GNN solver on the original graph"
 
 - title: "Improving bias correction standards by quantifying its effects on treatment outcomes"
   authors: "A. Abraham, A. Hoyos-Idrobo"
@@ -14,6 +17,8 @@
   year: 2024
   url: "https://doi.org/10.1007/978-3-032-25305-7_14"
   arxiv: "https://arxiv.org/abs/2407.14861"
+  figure: "/img/papers/bias-correction-a2a.svg"
+  figure_alt: "Many propensity-score matching methods give different treatment effects; the A2A metric, scored on artificial tasks with known outcomes, keeps only the accurate ones"
 
 - title: "Perceptual structure in the absence of grounding: the impact of abstractedness and subjectivity in color language for LLMs"
   authors: "P. Loyola, E. Marrese-Taylor, A. Hoyos-Idrobo"
@@ -21,6 +26,8 @@
   year: 2023
   url: "https://doi.org/10.18653/v1/2023.findings-emnlp.102"
   arxiv: "https://arxiv.org/abs/2311.13105"
+  figure: "/img/papers/color-language-llm.svg"
+  figure_alt: "Aligning a perceptual color space with a language model's embedding space of color descriptions"
 
 - title: "Learning to re-rank with constrained meta-optimal transport"
   authors: "A. Hoyos-Idrobo"
@@ -28,36 +35,48 @@
   year: 2023
   url: "https://doi.org/10.1145/3539618.3591714"
   arxiv: "https://arxiv.org/abs/2305.00319"
+  figure: "/img/papers/meta-ot-rerank.svg"
+  figure_alt: "Learning to re-rank: a single network predicts a fair doubly-stochastic ranking policy per query, and rankings are sampled from it"
 
 - title: "From theory to practice: testing harvesting-based propensity estimators on counterfactual learning-to-rank from implicit feedback for e-commerce search"
   authors: "P. Goswami, A. Hoyos-Idrobo, T. Deschamps, N. Feuillet"
   venue: "SIGIR Workshop on eCommerce (SIGIR eCom 2022)"
   year: 2022
   url: "https://sigir-ecom.github.io/ecom22Papers/paper_1119.pdf"
+  figure: "/img/papers/counterfactual-ltr-harvesting.svg"
+  figure_alt: "Counterfactual learning to rank: estimate position-bias propensities from harvested interventions in click logs"
 
 - title: "Aligning hyperbolic representations: an optimal transport-based approach"
   authors: "A. Hoyos-Idrobo"
   venue: "arXiv preprint arXiv:2012.01089"
   year: 2020
   url: "https://arxiv.org/abs/2012.01089"
+  figure: "/img/papers/hyperbolic-ot-alignment.svg"
+  figure_alt: "Aligning two hierarchical embeddings in the Poincaré disk with optimal transport"
 
 - title: "Approximate Birkhoff-von-Neumann decomposition: a differentiable approach"
   authors: "A. Hoyos-Idrobo"
   venue: "OpenReview preprint"
   year: 2020
   url: "https://openreview.net/forum?id=IpsTSvfIB6"
+  figure: "/img/papers/birkhoff-von-neumann.svg"
+  figure_alt: "A doubly-stochastic matrix written as a weighted sum of permutation matrices (Birkhoff-von-Neumann decomposition), learned differentiably"
 
 - title: "Local Bures-Wasserstein transport: a practical and fast mapping approximation"
   authors: "A. Hoyos-Idrobo"
   venue: "arXiv preprint arXiv:1906.08227"
   year: 2019
   url: "https://arxiv.org/abs/1906.08227"
+  figure: "/img/papers/local-bures-wasserstein.svg"
+  figure_alt: "Approximate transport map: match Gaussian components of two densities and use the closed-form Bures-Wasserstein map between each pair"
 
 - title: "FReM – scalable and stable decoding with fast regularized ensemble of models"
   authors: "A. Hoyos-Idrobo, G. Varoquaux, Y. Schwartz, B. Thirion"
   venue: "NeuroImage 180, 160–172"
   year: 2018
   url: "https://doi.org/10.1016/j.neuroimage.2017.10.005"
+  figure: "/img/papers/frem.svg"
+  figure_alt: "FReM: average many fast regularized models fitted on clustered data into one stable brain map"
 
 - title: "Recursive nearest agglomeration (ReNA): fast clustering for approximation of structured signals"
   authors: "A. Hoyos-Idrobo, G. Varoquaux, J. Kahn, B. Thirion"
@@ -66,12 +85,16 @@
   url: "https://doi.org/10.1109/TPAMI.2018.2815524"
   arxiv: "https://arxiv.org/abs/1609.04608"
   code: "https://github.com/ahoyosid/ReNA"
+  figure: "/img/papers/rena.svg"
+  figure_alt: "ReNA: recursively merging each region with its nearest neighbor gives a fast clustering that approximates a structured signal"
 
 - title: "Gaussian processes for HRF estimation for BOLD fMRI"
   authors: "M. Eickenberg, A. Frau-Pascual, A. Hoyos-Idrobo"
   venue: "arXiv preprint arXiv:1708.09762"
   year: 2017
   url: "https://arxiv.org/abs/1708.09762"
+  figure: "/img/papers/gp-hrf.svg"
+  figure_alt: "Joint estimation of activation and the hemodynamic response function, modeled as a Gaussian process with uncertainty"
 
 - title: "Towards a faster randomized parcellation based inference"
   authors: "A. Hoyos-Idrobo, G. Varoquaux, B. Thirion"
@@ -79,6 +102,8 @@
   year: 2017
   url: "https://doi.org/10.1109/PRNI.2017.7981503"
   hal: "https://hal.science/hal-01552237"
+  figure: "/img/papers/randomized-parcellation-inference.svg"
+  figure_alt: "Randomized parcellation based inference: test on many random parcellations and aggregate the votes into a statistical map"
 
 - title: "Assessing and tuning brain decoders: cross-validation, caveats, and guidelines"
   authors: "G. Varoquaux, P. Raamana, D. Engemann, A. Hoyos-Idrobo, Y. Schwartz, B. Thirion"
@@ -86,6 +111,8 @@
   year: 2017
   url: "https://doi.org/10.1016/j.neuroimage.2016.10.038"
   arxiv: "https://arxiv.org/abs/1606.05201"
+  figure: "/img/papers/assessing-brain-decoders.svg"
+  figure_alt: "Cross-validation for brain decoders: leave-one-out gives unstable estimates, repeated random splits give more reliable ones"
 
 - title: "Fast brain decoding with random sampling and random projections"
   authors: "A. Hoyos-Idrobo, G. Varoquaux, B. Thirion"
@@ -93,6 +120,8 @@
   year: 2016
   url: "https://doi.org/10.1109/PRNI.2016.7552350"
   hal: "https://inria.hal.science/hal-01313814"
+  figure: "/img/papers/random-projections-decoding.svg"
+  figure_alt: "Fast brain decoding: compress the n x p data matrix with random sampling or random projections before fitting the decoder"
 
 - title: "Improving sparse recovery on structured images with bagged clustering"
   authors: "A. Hoyos-Idrobo, Y. Schwartz, G. Varoquaux, B. Thirion"
@@ -100,12 +129,16 @@
   year: 2015
   url: "https://doi.org/10.1109/PRNI.2015.30"
   hal: "https://hal.science/hal-01174335"
+  figure: "/img/papers/bagged-clustering.svg"
+  figure_alt: "Bagged clustering: fit sparse models on several bootstrap clusterings and average them for better support recovery"
 
 - title: "Fast clustering for scalable statistical analysis on structured images"
   authors: "B. Thirion, A. Hoyos-Idrobo, J. Kahn, G. Varoquaux"
   venue: "ICML Workshop on Statistics, Machine Learning and Neuroscience (Stamlins 2015)"
   year: 2015
   url: "https://arxiv.org/abs/1511.04898"
+  figure: "/img/papers/fast-clustering-structured-images.svg"
+  figure_alt: "Compressing structured images: fast clustering keeps the image structure and removes noise, unlike random projections"
 
 - title: "On variant strategies to solve the magnitude least squares optimization problem in parallel transmission pulse design and under strict SAR and power constraints"
   authors: "A. Hoyos-Idrobo, P. Weiss, A. Massire, A. Amadon, N. Boulant"
@@ -113,3 +146,5 @@
   year: 2014
   url: "https://doi.org/10.1109/TMI.2013.2295465"
   arxiv: "https://arxiv.org/abs/1309.1567"
+  figure: "/img/papers/mls-pulse-design.svg"
+  figure_alt: "Parallel-transmission RF pulse design: magnitude least squares for a uniform flip angle under strict SAR and power limits"
