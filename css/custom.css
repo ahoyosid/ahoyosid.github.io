@@ -3,6 +3,7 @@
 
 
 body {
+    padding-top: 70px; /* room for the fixed navbar */
     font-family: "ubuntu", Helvetica, Arial, sans-serif;
 }
 
@@ -122,11 +123,11 @@ a.post_title {
 .post_sep {
     padding-left: 5px;
     padding-right: 5px;
-    color: #A9A9A9;
+    color: #767676;
 }
 
 .post_date {
-    color: #A9A9A9;
+    color: #767676;
 }
 
 .read_more {

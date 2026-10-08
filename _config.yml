@@ -19,6 +19,23 @@ github_username:  ahoyosid
 
 plugins:
     - jekyll-redirect-from
+    - jekyll-seo-tag
+    - jekyll-sitemap
+
+# Used by jekyll-seo-tag for link previews and structured data
+lang: en
+author: Andrés Hoyos-Idrobo
+logo: /img/ahoyosid.jpg
+twitter:
+    username: ahoyosid
+    card: summary
+social:
+    name: Andrés Hoyos-Idrobo
+    links:
+        - https://scholar.google.com/citations?user=J3344dQAAAAJ
+        - https://github.com/ahoyosid
+        - https://www.linkedin.com/in/andres-hoyos-idrobo-85b42024
+        - https://twitter.com/ahoyosid
 
 # Build settings
 markdown: kramdown
@@ -44,6 +61,11 @@ defaults:
         type: "pages" # previously `post` in Jekyll 2.2.
     values:
         layout: "page"
+-
+    scope:
+        path: ""
+    values:
+        image: /img/ahoyosid.jpg
 
 
 

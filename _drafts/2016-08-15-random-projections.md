@@ -1,5 +1,6 @@
 ---
 layout: post
+math: true
 title: Dimension reduction with random projections, part 1
 ---
 
