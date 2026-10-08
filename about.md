@@ -7,14 +7,14 @@ permalink: /about/
 My name is Andrés Hoyos Idrobo and I’m a PhD candidate in the 
 [Parietal Team at Inria](https://team.inria.fr/parietal/).  
 I’m being co-supervised by 
-[Bertrand THIRION](https://team.inria.fr/parietal/bertrand-thirions-page/)
-and [Gaël VAROQUAUX](http://gael-varoquaux.info/).
+[Bertrand THIRION](https://team.inria.fr/parietal/team-members/bertrand-thirions-page/)
+and [Gaël VAROQUAUX](https://gael-varoquaux.info/).
 
 I spend most of my time at 
-[Neurospin](http://i2bm.cea.fr/drf/i2bm/Pages/NeuroSpin.aspx), but
+[Neurospin](https://joliot.cea.fr/drf/joliot/en/Pages/research_entities/NeuroSpin.aspx), but
 occasionally you can find me at 
-[Inria Saclay](http://www.msr-inria.fr/researchers/andres-hoyos-idrobo/), where
-I'm part of the [medilearn project](http://www.msr-inria.fr/projects/medilearn/).
+Inria Saclay, where
+I'm part of the medilearn project.
 
 
 To get in touch, [send me an email](mailto:{{ site.email }}).
