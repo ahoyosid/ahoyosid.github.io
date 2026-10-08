@@ -1,6 +1,6 @@
 # Publications, newest first. Rendered by _includes/publication.html on the
 # home page (5 most recent) and on /publications/ (grouped by year).
-# Fields: title, authors, venue, year, url (main link), arxiv, hal, code,
+# Fields: title, authors, venue, year, url (main link), arxiv, hal, code, nilearn,
 # figure + figure_alt (optional; schematic in img/papers/), summary, keywords.
 
 - title: "Annealing machine-assisted learning of graph neural network for combinatorial optimization"
@@ -100,6 +100,7 @@
   summary: "Combining fast voxel clustering with an ensemble of cross-validated models gives brain decoders with more stable maps and predictions, at a fraction of the cost of spatially regularized methods."
   keywords: ["brain decoding", "fMRI", "ensemble learning", "clustering"]
   url: "https://doi.org/10.1016/j.neuroimage.2017.10.005"
+  nilearn: "https://nilearn.github.io/stable/decoding/frem.html"
   figure: "/img/papers/frem.svg"
   figure_alt: "FReM: average many fast regularized models fitted on clustered data into one stable brain map"
 
@@ -111,6 +112,7 @@
   summary: "Repeatedly merging each cluster with its nearest neighbor gives a linear-time clustering that compresses images as well as quadratic-time methods while also removing noise."
   keywords: ["clustering", "dimension reduction", "neuroimaging", "scalability"]
   url: "https://doi.org/10.1109/TPAMI.2018.2815524"
+  nilearn: "https://nilearn.github.io/stable/glossary.html#term-ReNA"
   arxiv: "https://arxiv.org/abs/1609.04608"
   code: "https://github.com/ahoyosid/ReNA"
   figure: "/img/papers/rena.svg"

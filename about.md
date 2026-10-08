@@ -55,6 +55,18 @@ stay fast and reliable on large, high-dimensional data.
 * Ensembles of models for stable, scalable estimation
 
 
+## Software ##
+
+* **[nilearn](https://nilearn.github.io/)**, the Python library for machine
+  learning on neuroimaging data: I contributed the
+  [FReM decoders](https://nilearn.github.io/stable/decoding/frem.html) and
+  [ReNA clustering](https://nilearn.github.io/stable/glossary.html#term-ReNA).
+* **[ReNA](https://github.com/ahoyosid/ReNA)**: reference implementation of
+  Recursive Nearest Agglomeration.
+* **[spark-dirty-cat](https://github.com/rakutentech/spark-dirty-cat)**:
+  similarity encoding of dirty categorical variables for Apache Spark.
+
+
 ## Experience ##
 
 * **Senior Research Scientist**, Search & Relevance team, Rakuten Group, Inc., Paris (2026–present).
