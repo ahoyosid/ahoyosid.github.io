@@ -53,10 +53,6 @@ h1, h2{
     text-align: center;
 }
 
-.border-left {
-    border-left: 1px solid #ddd;
-}
-
 .blog-header {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -135,10 +131,6 @@ a.post_title {
 
 .read_more {
     margin-top: 10px;
-}
-
-.resume {
-    list-style-type: none;
 }
 
 
