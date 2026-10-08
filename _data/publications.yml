@@ -91,8 +91,6 @@
   venue: "arXiv preprint arXiv:1708.09762"
   year: 2017
   url: "https://arxiv.org/abs/1708.09762"
-  figure: "/img/papers/gp-hrf.svg"
-  figure_alt: "Joint estimation of activation and the hemodynamic response function, modeled as a Gaussian process with uncertainty"
 
 - title: "Towards a faster randomized parcellation based inference"
   authors: "A. Hoyos-Idrobo, G. Varoquaux, B. Thirion"
@@ -107,8 +105,6 @@
   year: 2017
   url: "https://doi.org/10.1016/j.neuroimage.2016.10.038"
   arxiv: "https://arxiv.org/abs/1606.05201"
-  figure: "/img/papers/assessing-brain-decoders.svg"
-  figure_alt: "Cross-validation for brain decoders: leave-one-out gives unstable estimates, repeated random splits give more reliable ones"
 
 - title: "Fast brain decoding with random sampling and random projections"
   authors: "A. Hoyos-Idrobo, G. Varoquaux, B. Thirion"
