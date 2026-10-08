@@ -22,5 +22,19 @@ The full list, with citations, is on my
     <strong>A. Hoyos-Idrobo</strong>.
     <a href="https://theses.hal.science/tel-01526693" target="_blank">Ensembles of models in fMRI: stable learning in large-scale settings</a>.
     <em>Université Paris-Saclay</em>, 2017.
+    {% include bibtex.html key="hoyosidrobo2017ensembles" %}
 </li>
 </ul>
+
+<script>
+    // Copy a paper's BibTeX entry to the clipboard
+    document.querySelectorAll('.copy-bibtex').forEach(function (button) {
+        button.addEventListener('click', function () {
+            var text = button.parentNode.querySelector('pre').textContent;
+            navigator.clipboard.writeText(text).then(function () {
+                button.textContent = 'Copied';
+                setTimeout(function () { button.textContent = 'Copy'; }, 1500);
+            });
+        });
+    });
+</script>

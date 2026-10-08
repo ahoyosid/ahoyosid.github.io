@@ -1,0 +1,197 @@
+# BibTeX for each publication, keyed by the bibkey field in publications.yml.
+# Sources: publisher records (Crossref/DOI), ACL Anthology, arXiv.
+
+abraham2026improving: |
+  @inproceedings{abraham2026improving,
+    author    = {Abraham, Alexandre and Hoyos-Idrobo, Andrés},
+    title     = {Improving Bias Correction Standards by Quantifying Its Effects on Treatment Outcomes},
+    booktitle = {Machine Learning and Principles and Practice of Knowledge Discovery in Databases (ECML PKDD 2024 Workshops), Communications in Computer and Information Science},
+    pages     = {189--204},
+    year      = {2026},
+    publisher = {Springer Nature Switzerland},
+    doi       = {10.1007/978-3-032-25305-7_14}
+  }
+
+eickenberg2017gaussian: |
+  @misc{eickenberg2017gaussian,
+    author        = {Eickenberg, Michael and Frau-Pascual, Aina and Hoyos-Idrobo, Andrés},
+    title         = {{Gaussian} Processes for {HRF} estimation for {BOLD} {fMRI}},
+    year          = {2017},
+    eprint        = {1708.09762},
+    archivePrefix = {arXiv},
+    primaryClass  = {stat.AP}
+  }
+
+goswami2022theory: |
+  @inproceedings{goswami2022theory,
+    author    = {Goswami, Parantapa and Hoyos-Idrobo, Andrés and Deschamps, Théo and Feuillet, Nicolas},
+    title     = {From Theory to Practice: Testing Harvesting-Based Propensity Estimators on Counterfactual Learning-To-Rank from Implicit Feedback for E-commerce Search},
+    booktitle = {SIGIR Workshop on eCommerce (SIGIR eCom)},
+    year      = {2022},
+    url       = {https://sigir-ecom.github.io/ecom22Papers/paper_1119.pdf}
+  }
+
+hoyosidrobo2014variant: |
+  @article{hoyosidrobo2014variant,
+    author    = {Hoyos-Idrobo, Andrés and Weiss, P. and Massire, A. and Amadon, A. and Boulant, N.},
+    title     = {On Variant Strategies to Solve the Magnitude Least Squares Optimization Problem in Parallel Transmission Pulse Design and Under Strict {SAR} and Power Constraints},
+    journal   = {IEEE Transactions on Medical Imaging},
+    volume    = {33},
+    number    = {3},
+    pages     = {739--748},
+    year      = {2014},
+    publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+    doi       = {10.1109/tmi.2013.2295465}
+  }
+
+hoyosidrobo2015improving: |
+  @inproceedings{hoyosidrobo2015improving,
+    author    = {Hoyos-Idrobo, Andrés and Schwartz, Yannick and Varoquaux, Gael and Thirion, Bertrand},
+    title     = {Improving Sparse Recovery on Structured Images with Bagged Clustering},
+    booktitle = {2015 International Workshop on Pattern Recognition in NeuroImaging},
+    pages     = {73--76},
+    year      = {2015},
+    publisher = {IEEE},
+    doi       = {10.1109/prni.2015.30}
+  }
+
+hoyosidrobo2016fast: |
+  @inproceedings{hoyosidrobo2016fast,
+    author    = {Hoyos-Idrobo, Andrés and Varoquaux, Gael and Thirion, Bertrand},
+    title     = {Fast brain decoding with random sampling and random projections},
+    booktitle = {2016 International Workshop on Pattern Recognition in Neuroimaging (PRNI)},
+    pages     = {1--4},
+    year      = {2016},
+    publisher = {IEEE},
+    doi       = {10.1109/prni.2016.7552350}
+  }
+
+hoyosidrobo2017ensembles: |
+  @phdthesis{hoyosidrobo2017ensembles,
+    author = {Hoyos-Idrobo, Andrés},
+    title  = {Ensembles of models in {fMRI}: stable learning in large-scale settings},
+    school = {Université Paris-Saclay},
+    year   = {2017},
+    url    = {https://theses.hal.science/tel-01526693}
+  }
+
+hoyosidrobo2017faster: |
+  @inproceedings{hoyosidrobo2017faster,
+    author    = {Hoyos-Idrobo, Andrés and Varoquaux, Gael and Thirion, Bertrand},
+    title     = {Towards a faster randomized parcellation based inference},
+    booktitle = {2017 International Workshop on Pattern Recognition in Neuroimaging (PRNI)},
+    pages     = {1--4},
+    year      = {2017},
+    publisher = {IEEE},
+    doi       = {10.1109/prni.2017.7981503}
+  }
+
+hoyosidrobo2018frem: |
+  @article{hoyosidrobo2018frem,
+    author    = {Hoyos-Idrobo, Andrés and Varoquaux, Gaël and Schwartz, Yannick and Thirion, Bertrand},
+    title     = {{FReM} – Scalable and stable decoding with fast regularized ensemble of models},
+    journal   = {NeuroImage},
+    volume    = {180},
+    pages     = {160--172},
+    year      = {2018},
+    publisher = {Elsevier BV},
+    doi       = {10.1016/j.neuroimage.2017.10.005}
+  }
+
+hoyosidrobo2019local: |
+  @misc{hoyosidrobo2019local,
+    author        = {Hoyos-Idrobo, Andrés},
+    title         = {Local {Bures}-{Wasserstein} Transport: A Practical and Fast Mapping Approximation},
+    year          = {2019},
+    eprint        = {1906.08227},
+    archivePrefix = {arXiv},
+    primaryClass  = {stat.ML}
+  }
+
+hoyosidrobo2019recursive: |
+  @article{hoyosidrobo2019recursive,
+    author    = {Hoyos-Idrobo, Andrés and Varoquaux, Gael and Kahn, Jonas and Thirion, Bertrand},
+    title     = {Recursive Nearest Agglomeration ({ReNA}): Fast Clustering for Approximation of Structured Signals},
+    journal   = {IEEE Transactions on Pattern Analysis and Machine Intelligence},
+    volume    = {41},
+    number    = {3},
+    pages     = {669--681},
+    year      = {2019},
+    publisher = {Institute of Electrical and Electronics Engineers (IEEE)},
+    doi       = {10.1109/tpami.2018.2815524}
+  }
+
+hoyosidrobo2020aligning: |
+  @misc{hoyosidrobo2020aligning,
+    author        = {Hoyos-Idrobo, Andrés},
+    title         = {Aligning Hyperbolic Representations: an Optimal Transport-based approach},
+    year          = {2020},
+    eprint        = {2012.01089},
+    archivePrefix = {arXiv},
+    primaryClass  = {stat.ML}
+  }
+
+hoyosidrobo2020approximate: |
+  @misc{hoyosidrobo2020approximate,
+    author = {Hoyos-Idrobo, Andrés},
+    title  = {Approximate {Birkhoff}-von-Neumann decomposition: a differentiable approach},
+    year   = {2020},
+    url    = {https://openreview.net/forum?id=IpsTSvfIB6},
+    note   = {OpenReview preprint}
+  }
+
+hoyosidrobo2023learning: |
+  @inproceedings{hoyosidrobo2023learning,
+    author    = {Hoyos-Idrobo, Andrés},
+    title     = {Learning to Re-rank with Constrained Meta-Optimal Transport},
+    booktitle = {Proceedings of the 46th International ACM SIGIR Conference on Research and Development in Information Retrieval},
+    pages     = {48--57},
+    year      = {2023},
+    publisher = {ACM},
+    doi       = {10.1145/3539618.3591714}
+  }
+
+loyola2023perceptual: |
+  @inproceedings{loyola2023perceptual,
+    author    = {Loyola, Pablo and Marrese-Taylor, Edison and Hoyos-Idrobo, Andrés},
+    title     = {Perceptual Structure in the absence of grounding: the impact of abstractedness and subjectivity in color language for {LLMs}},
+    booktitle = {Findings of the Association for Computational Linguistics: EMNLP 2023},
+    pages     = {1536--1542},
+    year      = {2023},
+    publisher = {Association for Computational Linguistics},
+    doi       = {10.18653/v1/2023.findings-emnlp.102}
+  }
+
+loyola2024annealing: |
+  @inproceedings{loyola2024annealing,
+    author        = {Loyola, Pablo and Hasegawa, Kento and Hoyos-Idrobo, Andrés and Ono, Kazuo and Suzumura, Toyotaro and Hirate, Yu and Yamaoka, Masanao},
+    title         = {Annealing Machine-assisted Learning of Graph Neural Network for Combinatorial Optimization},
+    booktitle     = {NeurIPS 2024 Workshop on Machine Learning with New Compute Paradigms},
+    year          = {2024},
+    eprint        = {2501.05845},
+    archivePrefix = {arXiv},
+    primaryClass  = {cs.AI}
+  }
+
+thirion2015fast: |
+  @inproceedings{thirion2015fast,
+    author        = {Thirion, Bertrand and Hoyos-Idrobo, Andrés and Kahn, Jonas and Varoquaux, Gael},
+    title         = {Fast clustering for scalable statistical analysis on structured images},
+    booktitle     = {ICML Workshop on Statistics, Machine Learning and Neuroscience (Stamlins)},
+    year          = {2015},
+    eprint        = {1511.04898},
+    archivePrefix = {arXiv},
+    primaryClass  = {stat.ML}
+  }
+
+varoquaux2017assessing: |
+  @article{varoquaux2017assessing,
+    author    = {Varoquaux, Gaël and Raamana, Pradeep Reddy and Engemann, Denis A. and Hoyos-Idrobo, Andrés and Schwartz, Yannick and Thirion, Bertrand},
+    title     = {Assessing and tuning brain decoders: Cross-validation, caveats, and guidelines},
+    journal   = {NeuroImage},
+    volume    = {145},
+    pages     = {166--179},
+    year      = {2017},
+    publisher = {Elsevier BV},
+    doi       = {10.1016/j.neuroimage.2016.10.038}
+  }

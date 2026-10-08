@@ -7,6 +7,7 @@
   authors: "P. Loyola, K. Hasegawa, A. Hoyos-Idrobo, K. Ono, T. Suzumura, Y. Hirate, M. Yamaoka"
   venue: "NeurIPS 2024 Workshop on Machine Learning with New Compute Paradigms"
   year: 2024
+  bibkey: loyola2024annealing
   summary: "Partial solutions from an annealing machine, computed on a compressed version of the graph, guide a graph neural network so that it can solve combinatorial problems larger than the machine itself can handle."
   keywords: ["combinatorial optimization", "graph neural networks", "annealing machines"]
   url: "https://arxiv.org/abs/2501.05845"
@@ -17,6 +18,7 @@
   authors: "A. Abraham, A. Hoyos-Idrobo"
   venue: "ECML-PKDD 2024 Workshops, Communications in Computer and Information Science, 189–204"
   year: 2024
+  bibkey: abraham2026improving
   summary: "A2A scores propensity score matching methods on artificial tasks with known outcomes, reducing treatment-effect estimation error by up to 50% and its variability by up to 90%."
   keywords: ["causal inference", "propensity score matching", "treatment effects", "selection bias"]
   url: "https://doi.org/10.1007/978-3-032-25305-7_14"
@@ -28,6 +30,7 @@
   authors: "P. Loyola, E. Marrese-Taylor, A. Hoyos-Idrobo"
   venue: "Findings of the Association for Computational Linguistics: EMNLP 2023, 1536–1542"
   year: 2023
+  bibkey: loyola2023perceptual
   summary: "Language models' embeddings of color descriptions align with perceptual color space for simple color names, but much less for subjective or abstract descriptions, suggesting these need grounding beyond text."
   keywords: ["large language models", "grounding", "color language", "representation alignment"]
   url: "https://doi.org/10.18653/v1/2023.findings-emnlp.102"
@@ -39,6 +42,7 @@
   authors: "A. Hoyos-Idrobo"
   venue: "Proceedings of the 46th International ACM SIGIR Conference (SIGIR 2023), 48–57"
   year: 2023
+  bibkey: hoyosidrobo2023learning
   summary: "A single network, shared across queries, predicts fair stochastic ranking policies for any query, unseen ones included, replacing slow per-query optimization while matching its fairness and ranking quality."
   keywords: ["learning to rank", "optimal transport", "fairness of exposure", "re-ranking"]
   url: "https://doi.org/10.1145/3539618.3591714"
@@ -50,6 +54,7 @@
   authors: "P. Goswami, A. Hoyos-Idrobo, T. Deschamps, N. Feuillet"
   venue: "SIGIR Workshop on eCommerce (SIGIR eCom 2022)"
   year: 2022
+  bibkey: goswami2022theory
   summary: "On Rakuten Ichiba product search, correcting click data for position bias only helps when paired with the right optimizer, and harvesting-based propensity estimators are unreliable where data is scarce."
   keywords: ["counterfactual learning to rank", "position bias", "e-commerce search", "implicit feedback"]
   url: "https://sigir-ecom.github.io/ecom22Papers/paper_1119.pdf"
@@ -60,6 +65,7 @@
   authors: "A. Hoyos-Idrobo"
   venue: "arXiv preprint arXiv:2012.01089"
   year: 2020
+  bibkey: hoyosidrobo2020aligning
   summary: "Optimal transport between embeddings in the Poincaré ball extends Euclidean domain-adaptation methods to align hierarchical representations, such as ontologies or cross-lingual vocabularies."
   keywords: ["optimal transport", "hyperbolic embeddings", "domain adaptation", "alignment"]
   url: "https://arxiv.org/abs/2012.01089"
@@ -70,6 +76,7 @@
   authors: "A. Hoyos-Idrobo"
   venue: "OpenReview preprint"
   year: 2020
+  bibkey: hoyosidrobo2020approximate
   summary: "A differentiable approximation of the Birkhoff-von-Neumann decomposition writes a doubly stochastic matrix as a mixture of permutations that can be learned with gradient-based methods."
   keywords: ["Birkhoff-von-Neumann decomposition", "permutations", "differentiable optimization", "ranking"]
   url: "https://openreview.net/forum?id=IpsTSvfIB6"
@@ -78,6 +85,7 @@
   authors: "A. Hoyos-Idrobo"
   venue: "arXiv preprint arXiv:1906.08227"
   year: 2019
+  bibkey: hoyosidrobo2019local
   summary: "Matching the Gaussian components of two densities and using the closed-form Bures-Wasserstein map between each pair gives a transport map that applies to new samples and is about 80 times faster to compute than existing estimators."
   keywords: ["optimal transport", "Wasserstein barycenter", "Gaussian mixtures", "transport maps"]
   url: "https://arxiv.org/abs/1906.08227"
@@ -88,6 +96,7 @@
   authors: "A. Hoyos-Idrobo, G. Varoquaux, Y. Schwartz, B. Thirion"
   venue: "NeuroImage 180, 160–172"
   year: 2018
+  bibkey: hoyosidrobo2018frem
   summary: "Combining fast voxel clustering with an ensemble of cross-validated models gives brain decoders with more stable maps and predictions, at a fraction of the cost of spatially regularized methods."
   keywords: ["brain decoding", "fMRI", "ensemble learning", "clustering"]
   url: "https://doi.org/10.1016/j.neuroimage.2017.10.005"
@@ -98,6 +107,7 @@
   authors: "A. Hoyos-Idrobo, G. Varoquaux, J. Kahn, B. Thirion"
   venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence 41(3), 669–681"
   year: 2018
+  bibkey: hoyosidrobo2019recursive
   summary: "Repeatedly merging each cluster with its nearest neighbor gives a linear-time clustering that compresses images as well as quadratic-time methods while also removing noise."
   keywords: ["clustering", "dimension reduction", "neuroimaging", "scalability"]
   url: "https://doi.org/10.1109/TPAMI.2018.2815524"
@@ -110,6 +120,7 @@
   authors: "M. Eickenberg, A. Frau-Pascual, A. Hoyos-Idrobo"
   venue: "arXiv preprint arXiv:1708.09762"
   year: 2017
+  bibkey: eickenberg2017gaussian
   summary: "Modeling the hemodynamic response as a Gaussian process inside the fMRI general linear model estimates its shape with uncertainty and stays accurate when it departs from the standard response."
   keywords: ["fMRI", "hemodynamic response function", "Gaussian processes"]
   url: "https://arxiv.org/abs/1708.09762"
@@ -118,6 +129,7 @@
   authors: "A. Hoyos-Idrobo, G. Varoquaux, B. Thirion"
   venue: "International Workshop on Pattern Recognition in Neuroimaging (PRNI 2017)"
   year: 2017
+  bibkey: hoyosidrobo2017faster
   summary: "Building the random parcellations with the fast ReNA clustering makes randomized parcellation-based inference much faster while keeping its recovery performance."
   keywords: ["neuroimaging", "statistical inference", "parcellation", "clustering"]
   url: "https://doi.org/10.1109/PRNI.2017.7981503"
@@ -127,6 +139,7 @@
   authors: "G. Varoquaux, P. Raamana, D. Engemann, A. Hoyos-Idrobo, Y. Schwartz, B. Thirion"
   venue: "NeuroImage 145, 166–179"
   year: 2017
+  bibkey: varoquaux2017assessing
   summary: "Cross-validation of brain decoders has large error bars (about 10%), and repeated random splits should replace the unstable leave-one-out strategy."
   keywords: ["cross-validation", "brain decoding", "model evaluation", "neuroimaging"]
   url: "https://doi.org/10.1016/j.neuroimage.2016.10.038"
@@ -136,6 +149,7 @@
   authors: "A. Hoyos-Idrobo, G. Varoquaux, B. Thirion"
   venue: "International Workshop on Pattern Recognition in Neuroimaging (PRNI 2016)"
   year: 2016
+  bibkey: hoyosidrobo2016fast
   summary: "Randomly sampling voxels before decoding cuts computation time while keeping weight maps consistent with those learned on the full data."
   keywords: ["brain decoding", "random projections", "random sampling", "dimension reduction"]
   url: "https://doi.org/10.1109/PRNI.2016.7552350"
@@ -145,6 +159,7 @@
   authors: "A. Hoyos-Idrobo, Y. Schwartz, G. Varoquaux, B. Thirion"
   venue: "International Workshop on Pattern Recognition in Neuroimaging (PRNI 2015), 73–76"
   year: 2015
+  bibkey: hoyosidrobo2015improving
   summary: "Averaging sparse models fitted on several clusterings of resampled data stabilizes the brain regions they select."
   keywords: ["sparse models", "bagging", "clustering", "neuroimaging"]
   url: "https://doi.org/10.1109/PRNI.2015.30"
@@ -156,6 +171,7 @@
   authors: "B. Thirion, A. Hoyos-Idrobo, J. Kahn, G. Varoquaux"
   venue: "ICML Workshop on Statistics, Machine Learning and Neuroscience (Stamlins 2015)"
   year: 2015
+  bibkey: thirion2015fast
   summary: "Compressing brain images with a linear-time clustering of neighboring voxels, rather than random projections, preserves their spatial structure and removes noise, making large-scale analyses both faster and more accurate."
   keywords: ["clustering", "dimension reduction", "neuroimaging", "big data"]
   url: "https://arxiv.org/abs/1511.04898"
@@ -166,6 +182,7 @@
   authors: "A. Hoyos-Idrobo, P. Weiss, A. Massire, A. Amadon, N. Boulant"
   venue: "IEEE Transactions on Medical Imaging 33(3), 739–748"
   year: 2014
+  bibkey: hoyosidrobo2014variant
   summary: "Constrained optimization methods design parallel-transmission MRI pulses at 7 T that strictly respect patient-safety (SAR) and power limits, within seconds to a minute."
   keywords: ["MRI", "parallel transmission", "RF pulse design", "constrained optimization"]
   url: "https://doi.org/10.1109/TMI.2013.2295465"
