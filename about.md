@@ -53,9 +53,9 @@ stay fast and reliable on large, high-dimensional data.
 
 ## Experience ##
 
-* **Senior Research Scientist**, Search & Relevance team, Rakuten Group, Inc., Paris.
+* **Senior Research Scientist**, Search & Relevance team, Rakuten Group, Inc., Paris (2026–present).
   Deep learning to rank at scale for Rakuten Ichiba.
-* **Rakuten Institute of Technology**: recommender systems.
+* **Rakuten Institute of Technology** (2017–2026): recommender systems.
 * **Collaborations with Rakuten businesses**, including Rakuten France and Rakuten Viber.
 
 
