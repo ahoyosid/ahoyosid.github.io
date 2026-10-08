@@ -42,11 +42,10 @@ stay fast and reliable on large, high-dimensional data.
 
 **Now:** my work is driven by e-commerce problems.
 
-* Deep learning to rank at scale for e-commerce search
-* Search relevance and recommender systems
+* Learning to rank and recommendation: deep ranking models at scale,
+  search relevance, and counterfactual evaluation from implicit feedback
 * Optimal transport, for re-ranking and for aligning representations
-* Learning to rank and counterfactual evaluation from implicit feedback
-* Bias correction and treatment-effect estimation
+* Causal inference: bias correction and treatment-effect estimation
 * Machine learning on new compute paradigms, such as annealing machines
 
 **Before:** during my PhD I worked on statistical learning for brain imaging.
