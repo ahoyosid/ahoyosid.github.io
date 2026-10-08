@@ -1,10 +1,17 @@
 name: Check links
 
+# On push: internal links only (deterministic; fails if a page link breaks).
+# Weekly and on demand: all external links too; broken ones are reported in an
+# issue instead of failing, since third-party sites are sometimes briefly down.
 on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: "0 6 * * 1"  # every Monday, to catch links that rot over time
+    - cron: "0 6 * * 1"  # every Monday
+
+permissions:
+  contents: read
+  issues: write
 
 jobs:
   links:
@@ -16,14 +23,23 @@ jobs:
           ruby-version: "3.3"
           bundler-cache: true
       - run: bundle exec jekyll build
-      - name: Check internal and external links
+      - name: Check links
+        id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
           args: >-
             --no-progress
+            ${{ github.event_name == 'push' && '--offline' || '' }}
             --root-dir ${{ github.workspace }}/_site
             --accept 200..=299,429
             --max-retries 3
             --timeout 30
             './_site/**/*.html'
-          fail: true
+          fail: ${{ github.event_name == 'push' }}
+      - name: Open an issue listing broken external links
+        if: github.event_name != 'push' && steps.lychee.outputs.exit_code != 0
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: Broken links on the website
+          content-filepath: ./lychee/out.md
+          labels: broken-links
