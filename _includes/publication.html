@@ -1,7 +1,7 @@
 <li class="publication{% if include.pub.figure %} media{% endif %}">
     {% if include.pub.figure %}
     <div class="media-left">
-        <a href="{{ include.pub.figure | prepend: site.baseurl }}" target="_blank">
+        <a class="pub-figure-link" href="{{ include.pub.figure | prepend: site.baseurl }}" target="_blank" data-caption="{{ include.pub.title | escape }}">
             <img class="pub-figure" src="{{ include.pub.figure | prepend: site.baseurl }}" alt="{{ include.pub.figure_alt | escape }}" width="150" height="113" loading="lazy">
         </a>
     </div>

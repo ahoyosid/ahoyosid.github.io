@@ -212,3 +212,57 @@ h1, h2{
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+
+/* Figure zoom (lightbox) */
+.pub-figure-link {
+    cursor: zoom-in;
+}
+
+.lightbox {
+    width: min(92vw, 820px);
+    max-height: 92vh;
+    padding: 16px 16px 12px;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4);
+}
+
+.lightbox::backdrop {
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.lightbox figure {
+    margin: 0;
+}
+
+.lightbox img {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-height: calc(92vh - 90px);
+    object-fit: contain;
+}
+
+.lightbox figcaption {
+    margin-top: 10px;
+    padding-right: 30px;
+    color: #333;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 6px;
+    right: 8px;
+    padding: 0 8px;
+    font-size: 28px;
+    line-height: 1;
+    color: #555;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.lightbox-close:hover,
+.lightbox-close:focus {
+    color: #000;
+}
