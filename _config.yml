@@ -11,11 +11,11 @@ email: ahoyosidrobo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
     I'll start my blog here
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://ahoyosid.github.io" # the base hostname & protocol for your site
+url: "https://ahoyosid.github.io" # the base hostname & protocol for your site
 twitter_username: ahoyosid 
 github_username:  ahoyosid
 
-gems: 
+plugins:
     - jekyll-paginate
 paginate: 3
 
@@ -45,3 +45,10 @@ defaults:
         layout: "page"
 
 
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - README.md
+    - LICENSE
+    - vendor

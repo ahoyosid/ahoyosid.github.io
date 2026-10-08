@@ -1,9 +1,8 @@
 source "https://rubygems.org"
 
-gem 'thor'
-gem 'stringex'
-gem "jekyll"
-gem "jekyll-paginate"
-gem 'github-pages'
-gem 'wdm'
-gem "rouge"
+gem "github-pages", group: :jekyll_plugins
+gem "webrick"
+
+group :jekyll_plugins do
+  gem "jekyll-paginate"
+end

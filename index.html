@@ -18,6 +18,7 @@ title: Blog
         <div class="col-sm-8">
             <h2>Posts</h2>
 
+            {% if paginator.posts.size > 0 %}
             <ul class="post">
                 {% for post in paginator.posts %}
                     <li class="post_item">
@@ -31,12 +32,15 @@ title: Blog
                         {{ post.excerpt }}
 
                         <a class="btn btn-primary read_more" role="button" href="{{ post.url | prepend: site.baseurl }}">Read more 
-                        <i class="fa fa-arrow-right"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
                         </a>
                         <hr>
                     </li>
                   {% endfor %}
             </ul>
+            {% else %}
+            <p>No posts yet.</p>
+            {% endif %}
             {% if paginator.total_pages > 1 %}
             <div class="pagination">
                 {% if paginator.previous_page %}
@@ -65,8 +69,12 @@ title: Blog
         </div>
 
         <div class="col-sm-4 border-left">
-           <h2>Latest tweets</h2>
-           <a class="twitter-timeline" data-height="400" href="https://twitter.com/ahoyosid">Tweets by ahoyosid</a> 
+           <h2>Find me</h2>
+           <ul class="resume">
+               <li><a href="https://scholar.google.com/citations?user=J3344dQAAAAJ"><i class="fa-solid fa-graduation-cap fa-fw"></i> Google Scholar</a></li>
+               <li><a href="https://github.com/ahoyosid"><i class="fa-brands fa-github fa-fw"></i> GitHub</a></li>
+               <li><a href="https://twitter.com/ahoyosid"><i class="fa-brands fa-x-twitter fa-fw"></i> Twitter / X</a></li>
+           </ul>
         </div>
     </div><!-- /row -->
     <hr>
@@ -77,10 +85,9 @@ title: Blog
     <div id="blogroll">
         <h3>Blogroll</h3>
         <ul>
-            <li><a href="http://www.twinee.fr/site/" target="_blank">Alexandre Abraham</a></li>
-            <li><a href="http://fa.bianp.net/" target="_blank">Fabian Pedregosa</a></li>
-            <li><a href="http://dohmatob.blogspot.fr/" target="_blank">Elvis Dohmatob</a></li>
-            <li><a href="http://gael-varoquaux.info/" target="_blank">Gaël Varoquaux</a></li>
+            <li><a href="https://fa.bianp.net/" target="_blank">Fabian Pedregosa</a></li>
+            <li><a href="https://dohmatob.blogspot.com/" target="_blank">Elvis Dohmatob</a></li>
+            <li><a href="https://gael-varoquaux.info/" target="_blank">Gaël Varoquaux</a></li>
         </ul>
     </div>
 </div>
