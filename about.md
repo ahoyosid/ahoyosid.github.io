@@ -6,6 +6,9 @@ permalink: /about/
 
 My name is Andrés Hoyos-Idrobo. I'm a Senior Research Scientist at
 Rakuten Group, Inc. in Paris, where I work in the Search & Relevance team.
+I design deep-learning-based learning-to-rank systems at scale for
+Rakuten Ichiba, from custom models to their training pipelines.
+
 Previously, I was part of the Rakuten Institute of Technology, working on
 recommender systems. Before that, I collaborated with several Rakuten
 businesses, such as Rakuten France and Rakuten Viber.
@@ -29,6 +32,7 @@ stay fast and reliable on large, high-dimensional data.
 
 **Now:** my work is driven by e-commerce problems.
 
+* Deep learning to rank at scale for e-commerce search
 * Search relevance and recommender systems
 * Optimal transport, for re-ranking and for aligning representations
 * Learning to rank and counterfactual evaluation from implicit feedback

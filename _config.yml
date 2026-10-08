@@ -9,8 +9,8 @@
 title: Andrés Hoyos-Idrobo
 email: ahoyosidrobo@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-    Senior Research Scientist at Rakuten Group, Inc. in Paris. Search relevance,
-    optimal transport, learning to rank, causal inference.
+    Senior Research Scientist at Rakuten Group, Inc. in Paris. Deep learning to
+    rank at scale, search relevance, optimal transport, causal inference.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://ahoyosid.github.io" # the base hostname & protocol for your site
 twitter_username: ahoyosid 
