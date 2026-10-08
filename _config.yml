@@ -17,6 +17,9 @@ twitter_username: ahoyosid
 github_username:  ahoyosid
 
 
+plugins:
+    - jekyll-redirect-from
+
 # Build settings
 markdown: kramdown
 highlighter: rouge

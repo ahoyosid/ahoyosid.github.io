@@ -2,6 +2,8 @@
 layout: page
 title: About
 permalink: /about/
+redirect_from:
+    - /resume/
 ---
 
 My name is Andrés Hoyos-Idrobo. I'm a Senior Research Scientist at
@@ -22,7 +24,9 @@ and defended my thesis,
 [*Ensembles of models in fMRI: stable learning in large-scale settings*](https://theses.hal.science/tel-01526693),
 in 2017.
 
-To get in touch, [send me an email](mailto:{{ site.email }}).
+To get in touch, [send me an email](mailto:{{ site.email }}). For my full
+career history, see my
+[LinkedIn profile](https://www.linkedin.com/in/andres-hoyos-idrobo-85b42024).
 
 
 ## Research interests ##
@@ -44,3 +48,25 @@ stay fast and reliable on large, high-dimensional data.
 * Decoding cognitive states from fMRI
 * Fast clustering and randomized methods for dimension reduction
 * Ensembles of models for stable, scalable estimation
+
+
+## Experience ##
+
+* **Senior Research Scientist**, Search & Relevance team, Rakuten Group, Inc., Paris.
+  Deep learning to rank at scale for Rakuten Ichiba.
+* **Rakuten Institute of Technology**: recommender systems.
+* **Collaborations with Rakuten businesses**, including Rakuten France and Rakuten Viber.
+
+
+## Education ##
+
+* **PhD in computer science**, Inria / Université Paris-Saclay, 2014–2017.
+* **MVA master's** (Mathematics, Vision, Learning), ENS Cachan, 2012–2013.
+* **B.Sc. in Biomedical Engineering** and **B.Sc. in Electronic Engineering**,
+  Universidad Autónoma de Occidente (UAO), Colombia, 2004–2010.
+
+
+## Beyond work ##
+
+I speak Spanish, English and French, and some Portuguese. Outside work, I enjoy
+drawing, painting and cinema.
