@@ -283,3 +283,106 @@ h1, h2{
 .lightbox-close:focus {
     color: #000;
 }
+
+/* Experience / education timeline (About page) */
+.timeline {
+    position: relative;
+    margin: 10px 0 25px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.timeline::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    bottom: 8px;
+    left: 7px;
+    width: 2px;
+    background: #d6e4f2;
+}
+
+.timeline-item {
+    position: relative;
+    padding-left: 34px;
+    margin-bottom: 20px;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 1px;
+    width: 14px;
+    height: 14px;
+    border: 3px solid #337ab7;
+    border-radius: 50%;
+    background: #fff;
+}
+
+/* filled dot = current role */
+.timeline-current .timeline-item:first-child::before {
+    background: #337ab7;
+}
+
+.timeline-date {
+    display: inline-block;
+    margin-bottom: 4px;
+    padding: 1px 10px;
+    font-size: 0.85em;
+    font-weight: bold;
+    color: #fff;
+    background: #337ab7;
+    border-radius: 10px;
+}
+
+.timeline-title {
+    font-weight: bold;
+}
+
+.timeline-org {
+    color: #555;
+}
+
+.timeline-detail p {
+    margin: 4px 0 0;
+}
+
+/* Software cards (About page) */
+.software-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+    margin: 10px 0 25px;
+}
+
+.software-card {
+    padding: 14px 16px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.software-card h3 {
+    margin: 0 0 8px;
+    font-family: 'Oswald', Helvetica, Arial, sans-serif;
+    font-size: 20px;
+}
+
+.software-card p {
+    margin: 0 0 8px;
+}
+
+.software-langs {
+    margin: 0;
+}
+
+.lang-badge {
+    display: inline-block;
+    margin: 2px 4px 0 0;
+    padding: 1px 8px;
+    font-size: 0.85em;
+    color: #444;
+    background: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}

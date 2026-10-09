@@ -1,0 +1,22 @@
+# Software cards on the About page.
+# Fields: name, url, description, languages, links (optional list of label/url).
+
+- name: nilearn
+  url: "https://nilearn.github.io/"
+  description: "Python library for machine learning on neuroimaging data. I contributed the FReM decoders and ReNA clustering."
+  languages: ["Python"]
+  links:
+    - label: "FReM"
+      url: "https://nilearn.github.io/stable/decoding/frem.html"
+    - label: "ReNA"
+      url: "https://nilearn.github.io/stable/modules/generated/nilearn.regions.ReNA.html"
+
+- name: ReNA
+  url: "https://github.com/ahoyosid/ReNA"
+  description: "Reference implementation of Recursive Nearest Agglomeration, a linear-time clustering for structured signals such as images."
+  languages: ["Python"]
+
+- name: spark-dirty-cat
+  url: "https://github.com/rakutentech/spark-dirty-cat"
+  description: "Similarity encoding of dirty categorical variables (strings) for Apache Spark, released by Rakuten."
+  languages: ["Scala", "Apache Spark"]

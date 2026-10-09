@@ -1,0 +1,29 @@
+# Experience and education timelines on the About page (newest first).
+# Fields: dates, title, org, detail (Markdown, optional).
+
+experience:
+  - dates: "2026 – present"
+    title: "Senior Research Scientist"
+    org: "Rakuten Group, Inc., Paris · Search & Relevance team"
+    detail: "Deep learning to rank at scale for Rakuten Ichiba, from custom models to their training pipelines."
+  - dates: "2021 – 2025"
+    title: "Recommender systems"
+    org: "Rakuten Institute of Technology"
+  - dates: "2017 – 2021"
+    title: "Projects with Rakuten businesses"
+    org: "Rakuten Institute of Technology"
+    detail: "Collaborations with Rakuten France and Rakuten Viber."
+
+education:
+  - dates: "2014 – 2017"
+    title: "PhD in computer science"
+    org: "Inria / Université Paris-Saclay · Parietal team, NeuroSpin"
+    detail: "Thesis: [*Ensembles of models in fMRI: stable learning in large-scale settings*](https://theses.hal.science/tel-01526693). Advised by [Bertrand Thirion](https://team.inria.fr/parietal/team-members/bertrand-thirions-page/) and [Gaël Varoquaux](https://gael-varoquaux.info/)."
+  - dates: "2012 – 2013"
+    title: "MVA master's (Mathematics, Vision, Learning)"
+    org: "ENS Cachan"
+    detail: "Project on radio-frequency pulse design for high-field MRI, advised by Nicolas Boulant."
+  - dates: "2004 – 2010"
+    title: "B.Sc. in Biomedical Engineering and B.Sc. in Electronic Engineering"
+    org: "Universidad Autónoma de Occidente (UAO), Colombia"
+    detail: "Advised by Juan Diego Pulgarin."

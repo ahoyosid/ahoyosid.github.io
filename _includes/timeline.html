@@ -1,0 +1,12 @@
+<ol class="timeline{% if include.current %} timeline-current{% endif %}">
+{%- for e in include.items %}
+  <li class="timeline-item">
+    <span class="timeline-date">{{ e.dates }}</span>
+    <div class="timeline-title">{{ e.title }}</div>
+    <div class="timeline-org">{{ e.org }}</div>
+    {%- if e.detail %}
+    <div class="timeline-detail">{{ e.detail | markdownify | strip }}</div>
+    {%- endif %}
+  </li>
+{%- endfor %}
+</ol>

@@ -1,0 +1,12 @@
+<div class="software-grid">
+{%- for s in site.data.software %}
+  <div class="software-card">
+    <h3><a href="{{ s.url }}">{{ s.name }}</a></h3>
+    <p>{{ s.description }}</p>
+    {%- if s.links %}
+    <p class="software-links">{% for l in s.links %}<a href="{{ l.url }}">{{ l.label }}</a>{% unless forloop.last %} · {% endunless %}{% endfor %}</p>
+    {%- endif %}
+    <p class="software-langs">{% for lang in s.languages %}<span class="lang-badge">{{ lang }}</span>{% endfor %}</p>
+  </div>
+{%- endfor %}
+</div>

@@ -55,34 +55,19 @@ stay fast and reliable on large, high-dimensional data.
 * Ensembles of models for stable, scalable estimation
 
 
-## Software ##
-
-* **[nilearn](https://nilearn.github.io/)**, the Python library for machine
-  learning on neuroimaging data: I contributed the
-  [FReM decoders](https://nilearn.github.io/stable/decoding/frem.html) and
-  [ReNA clustering](https://nilearn.github.io/stable/modules/generated/nilearn.regions.ReNA.html).
-* **[ReNA](https://github.com/ahoyosid/ReNA)**: reference implementation of
-  Recursive Nearest Agglomeration.
-* **[spark-dirty-cat](https://github.com/rakutentech/spark-dirty-cat)**:
-  similarity encoding of dirty categorical variables for Apache Spark.
-
-
 ## Experience ##
 
-* **Senior Research Scientist**, Search & Relevance team, Rakuten Group, Inc., Paris (2026–present).
-  Deep learning to rank at scale for Rakuten Ichiba.
-* **Rakuten Institute of Technology** (2017–2025)
-    * Recommender systems (2021–2025)
-    * Collaborations with Rakuten businesses, including Rakuten France and
-      Rakuten Viber (2017–2021)
+{% include timeline.html items=site.data.timeline.experience current=true %}
 
 
 ## Education ##
 
-* **PhD in computer science**, Inria / Université Paris-Saclay, 2014–2017.
-* **MVA master's** (Mathematics, Vision, Learning), ENS Cachan, 2012–2013.
-* **B.Sc. in Biomedical Engineering** and **B.Sc. in Electronic Engineering**,
-  Universidad Autónoma de Occidente (UAO), Colombia, 2004–2010.
+{% include timeline.html items=site.data.timeline.education %}
+
+
+## Software ##
+
+{% include software-cards.html %}
 
 
 ## Beyond work ##
