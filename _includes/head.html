@@ -2,6 +2,14 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <script>
+    // Apply a stored theme choice before the page is drawn (no flash)
+    try {
+      var theme = localStorage.getItem('theme');
+      if (theme === 'light' || theme === 'dark') document.documentElement.setAttribute('data-theme', theme);
+    } catch (e) {}
+  </script>
 
   <title>{% if page.title and page.url != '/' %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
   {% seo title=false %}
@@ -9,8 +17,6 @@
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | prepend: site.baseurl }}">
   <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | prepend: site.baseurl }}">
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
   <!-- Web fonts (self-hosted) -->
   <link rel="preload" href="{{ '/fonts/ubuntu-400-latin.woff2' | prepend: site.baseurl }}" as="font" type="font/woff2" crossorigin>
   <link rel="preload" href="{{ '/fonts/oswald-400-latin.woff2' | prepend: site.baseurl }}" as="font" type="font/woff2" crossorigin>

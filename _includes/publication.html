@@ -1,11 +1,11 @@
-<li class="publication{% if include.pub.figure %} media{% endif %}">
+<li class="publication{% if include.pub.figure %} has-figure{% endif %}">
     {% if include.pub.figure %}
-    <div class="media-left">
+    <div class="pub-thumb">
         <a class="pub-figure-link" href="{{ include.pub.figure | prepend: site.baseurl }}" target="_blank" data-caption="{{ include.pub.title | escape }}">
             <img class="pub-figure" src="{{ include.pub.figure | prepend: site.baseurl }}" alt="{{ include.pub.figure_alt | escape }}" width="150" height="113" loading="lazy">
         </a>
     </div>
-    <div class="media-body">
+    <div class="pub-text">
     {% endif %}
     {{ include.pub.authors | replace: "A. Hoyos-Idrobo", "<strong>A. Hoyos-Idrobo</strong>" }}.
     <a href="{{ include.pub.url }}" target="_blank">{{ include.pub.title }}</a>.
