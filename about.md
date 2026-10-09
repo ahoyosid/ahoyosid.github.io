@@ -22,7 +22,8 @@ click-through-rate prediction, encoder-based models and graph neural networks)
 and, earlier, collaborated with several Rakuten businesses, such as Rakuten
 France and Rakuten Viber.
 
-I did my PhD in computer science at Inria and Université Paris-Saclay, in the
+I did my PhD in computer science at the Microsoft Research – Inria Joint Centre
+(MediLearn project) and Université Paris-Saclay, in the
 [Parietal team](https://team.inria.fr/parietal/), co-supervised by
 [Bertrand Thirion](https://team.inria.fr/parietal/team-members/bertrand-thirions-page/)
 and [Gaël Varoquaux](https://gael-varoquaux.info/). I spent most of those years at
