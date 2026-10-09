@@ -24,7 +24,7 @@ plugins:
 
 # Cookie-free visitor statistics: set to your GoatCounter code (e.g. ahoyosid for
 # https://ahoyosid.goatcounter.com) to turn them on; empty = off.
-goatcounter: ""
+goatcounter: "ahoyosid"
 
 # Used by jekyll-seo-tag for link previews and structured data
 lang: en
