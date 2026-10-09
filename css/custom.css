@@ -399,18 +399,25 @@ pre {
     margin-bottom: 15px;
 }
 
-/* Figure column of fixed width + text column. A grid (rather than flex with
-   content-sized items) lays out the same in every browser engine. */
-.publication.has-figure {
-    display: grid;
-    grid-template-columns: 150px minmax(0, 1fr);
-    gap: 10px;
-    align-items: start;
+/* Figure + text side by side as table cells: the same technique as
+   Bootstrap 3's "media" object, which displayed correctly everywhere. */
+.publication.has-figure,
+.pub-text {
+    overflow: hidden;
 }
 
 .pub-thumb,
 .pub-text {
-    min-width: 0;
+    display: table-cell;
+    vertical-align: top;
+}
+
+.pub-thumb {
+    padding-right: 10px;
+}
+
+.pub-text {
+    width: 10000px; /* take all remaining space (Bootstrap's media-body trick) */
 }
 
 /* entries without a figure line up with those that have one
@@ -434,9 +441,16 @@ pre {
 
 /* Phones: the figure goes above the text so the text gets the full width */
 @media (max-width: 480px) {
-    .publication.has-figure {
-        grid-template-columns: minmax(0, 1fr);
-        gap: 8px;
+    .publication.has-figure,
+    .pub-thumb,
+    .pub-text {
+        display: block;
+        width: auto;
+    }
+
+    .pub-thumb {
+        margin-bottom: 8px;
+        padding-right: 0;
     }
 
     .publications .publication:not(.has-figure) {
