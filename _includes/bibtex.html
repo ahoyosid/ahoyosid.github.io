@@ -1,4 +1,4 @@
-{% assign bib = site.data.bibtex[include.key] %}{% if bib %}<details class="pub-bibtex">
+{% assign bib = site.data.bibtex[include.key] %}{% if bib %}<details class="paper-bibtex">
     <summary>BibTeX</summary>
     <pre>{{ bib | strip | escape }}</pre>
     <button type="button" class="copy-bibtex">Copy</button>

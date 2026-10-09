@@ -2,7 +2,7 @@
     // Zoom publication figures in place instead of opening them in a new tab.
     // Without JavaScript (or with Ctrl/Cmd/middle click) the link still opens the figure.
     (function () {
-        var links = document.querySelectorAll('.pub-figure-link');
+        var links = document.querySelectorAll('.paper-figure-link');
         if (!links.length || typeof HTMLDialogElement === 'undefined') return;
 
         var dialog = document.createElement('dialog');

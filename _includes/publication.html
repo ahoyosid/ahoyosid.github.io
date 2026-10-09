@@ -1,11 +1,11 @@
 <li class="publication{% if include.pub.figure %} has-figure{% endif %}">
     {% if include.pub.figure %}
-    <div class="pub-thumb">
-        <a class="pub-figure-link" href="{{ include.pub.figure | prepend: site.baseurl }}" target="_blank" data-caption="{{ include.pub.title | escape }}">
-            <img class="pub-figure" src="{{ include.pub.figure | prepend: site.baseurl }}" alt="{{ include.pub.figure_alt | escape }}" width="150" height="113" loading="lazy">
+    <div class="paper-thumb">
+        <a class="paper-figure-link" href="{{ include.pub.figure | prepend: site.baseurl }}" target="_blank" data-caption="{{ include.pub.title | escape }}">
+            <img class="paper-figure" src="{{ include.pub.figure | prepend: site.baseurl }}" alt="{{ include.pub.figure_alt | escape }}" width="150" height="113" loading="lazy">
         </a>
     </div>
-    <div class="pub-text">
+    <div class="paper-body">
     {% endif %}
     {{ include.pub.authors | replace: "A. Hoyos-Idrobo", "<strong>A. Hoyos-Idrobo</strong>" }}.
     <a href="{{ include.pub.url }}" target="_blank">{{ include.pub.title }}</a>.
@@ -15,8 +15,8 @@
     {% if include.pub.code %}<a href="{{ include.pub.code }}" target="_blank">[code]</a>{% endif %}
     {% if include.pub.nilearn %}<a href="{{ include.pub.nilearn }}" target="_blank">[nilearn]</a>{% endif %}
     {% if include.details %}
-    {% if include.pub.summary %}<p class="pub-summary">{{ include.pub.summary }}</p>{% endif %}
-    {% if include.pub.keywords %}<p class="pub-keywords">{% for kw in include.pub.keywords %}<span class="pub-keyword">{{ kw }}</span>{% endfor %}</p>{% endif %}
+    {% if include.pub.summary %}<p class="paper-summary">{{ include.pub.summary }}</p>{% endif %}
+    {% if include.pub.keywords %}<p class="paper-keywords">{% for kw in include.pub.keywords %}<span class="paper-keyword">{{ kw }}</span>{% endfor %}</p>{% endif %}
     {% if include.pub.bibkey %}{% include bibtex.html key=include.pub.bibkey %}{% endif %}
     {% endif %}
     {% if include.pub.figure %}

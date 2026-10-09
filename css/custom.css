@@ -390,6 +390,9 @@ pre {
 /* Publications                                                        */
 /* ------------------------------------------------------------------ */
 
+/* Don't use class names like "pub-text": "pub" means advertising in French,
+   and the Liste FR ad-block filter (##.pub-text) hides such elements. */
+
 .publications {
     padding-left: 0;
     list-style-type: none;
@@ -402,21 +405,21 @@ pre {
 /* Figure + text side by side as table cells: the same technique as
    Bootstrap 3's "media" object, which displayed correctly everywhere. */
 .publication.has-figure,
-.pub-text {
+.paper-body {
     overflow: hidden;
 }
 
-.pub-thumb,
-.pub-text {
+.paper-thumb,
+.paper-body {
     display: table-cell;
     vertical-align: top;
 }
 
-.pub-thumb {
+.paper-thumb {
     padding-right: 10px;
 }
 
-.pub-text {
+.paper-body {
     width: 10000px; /* take all remaining space (Bootstrap's media-body trick) */
 }
 
@@ -426,7 +429,7 @@ pre {
     padding-left: 160px;
 }
 
-.pub-figure {
+.paper-figure {
     width: 150px;
     max-width: none;
     height: auto;
@@ -435,20 +438,20 @@ pre {
     border: 1px solid var(--border);
 }
 
-.pub-figure-link {
+.paper-figure-link {
     cursor: zoom-in;
 }
 
 /* Phones: the figure goes above the text so the text gets the full width */
 @media (max-width: 480px) {
     .publication.has-figure,
-    .pub-thumb,
-    .pub-text {
+    .paper-thumb,
+    .paper-body {
         display: block;
         width: auto;
     }
 
-    .pub-thumb {
+    .paper-thumb {
         margin-bottom: 8px;
         padding-right: 0;
     }
@@ -457,22 +460,22 @@ pre {
         padding-left: 0;
     }
 
-    .pub-figure {
+    .paper-figure {
         width: 220px;
         max-width: 100%; /* safe here: the single grid column has a fixed width */
     }
 }
 
-.pub-summary {
+.paper-summary {
     margin: 6px 0 4px;
     color: var(--summary);
 }
 
-.pub-keywords {
+.paper-keywords {
     margin: 0;
 }
 
-.pub-keyword {
+.paper-keyword {
     display: inline-block;
     margin: 2px 4px 2px 0;
     padding: 1px 8px;
@@ -483,19 +486,19 @@ pre {
 }
 
 /* BibTeX toggle */
-.pub-bibtex {
+.paper-bibtex {
     position: relative;
     margin-top: 4px;
 }
 
-.pub-bibtex summary {
+.paper-bibtex summary {
     display: inline-block;
     cursor: pointer;
     color: var(--link);
     font-size: 0.9em;
 }
 
-.pub-bibtex pre {
+.paper-bibtex pre {
     margin: 6px 0 0;
     padding-right: 70px;
     font-size: 12px;
