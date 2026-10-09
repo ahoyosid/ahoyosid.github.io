@@ -112,7 +112,7 @@
   summary: "Repeatedly merging each cluster with its nearest neighbor gives a linear-time clustering that compresses images as well as quadratic-time methods while also removing noise."
   keywords: ["clustering", "dimension reduction", "neuroimaging", "scalability"]
   url: "https://doi.org/10.1109/TPAMI.2018.2815524"
-  nilearn: "https://nilearn.github.io/stable/glossary.html#term-ReNA"
+  nilearn: "https://nilearn.github.io/stable/modules/generated/nilearn.regions.ReNA.html"
   arxiv: "https://arxiv.org/abs/1609.04608"
   code: "https://github.com/ahoyosid/ReNA"
   figure: "/img/papers/rena.svg"

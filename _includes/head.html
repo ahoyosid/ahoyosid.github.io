@@ -5,13 +5,16 @@
 
   <title>{% if page.title and page.url != '/' %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
   {% seo title=false %}
+  {% if page.url == '/' %}{% include person-jsonld.html %}{% endif %}
   <link rel="icon" type="image/png" sizes="32x32" href="{{ '/favicon-32x32.png' | prepend: site.baseurl }}">
   <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | prepend: site.baseurl }}">
 
   <!-- Bootstrap core CSS -->
   <link rel="stylesheet" href="{{ "/css/bootstrap.min.css" | prepend: site.baseurl }}">
-  <!-- Google fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu%7COswald&amp;display=swap">
+  <!-- Web fonts (self-hosted) -->
+  <link rel="preload" href="{{ '/fonts/ubuntu-400-latin.woff2' | prepend: site.baseurl }}" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="{{ '/fonts/oswald-400-latin.woff2' | prepend: site.baseurl }}" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="{{ '/css/fonts.css' | prepend: site.baseurl }}">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="{{ "/css/custom.css" | prepend: site.baseurl }}?v={{ site.time | date: '%s' }}">
 

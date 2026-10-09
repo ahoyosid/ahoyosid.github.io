@@ -22,6 +22,10 @@ plugins:
     - jekyll-seo-tag
     - jekyll-sitemap
 
+# Cookie-free visitor statistics: set to your GoatCounter code (e.g. ahoyosid for
+# https://ahoyosid.goatcounter.com) to turn them on; empty = off.
+goatcounter: ""
+
 # Used by jekyll-seo-tag for link previews and structured data
 lang: en
 author: Andrés Hoyos-Idrobo

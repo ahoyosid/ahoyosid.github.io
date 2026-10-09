@@ -3,7 +3,7 @@
 
 body {
     padding-top: 70px; /* room for the fixed navbar */
-    font-family: "ubuntu", Helvetica, Arial, sans-serif;
+    font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
     /* keep the footer at the bottom of the window on short pages */
     display: flex;
     flex-direction: column;

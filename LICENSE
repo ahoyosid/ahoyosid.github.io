@@ -12,7 +12,8 @@ This repository contains two kinds of material, under two licenses.
 
 Third-party files keep their own licenses: Bootstrap (css/bootstrap.min.css,
 MIT) and the Font Awesome Free icons inlined in _includes/footer.html
-(CC BY 4.0, https://fontawesome.com/license/free).
+(CC BY 4.0, https://fontawesome.com/license/free), and the self-hosted fonts in
+fonts/ (Ubuntu: Ubuntu Font Licence 1.0; Oswald: SIL Open Font License 1.1).
 
 -------------------------------------------------------------------------------
 

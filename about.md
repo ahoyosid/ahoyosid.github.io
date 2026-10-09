@@ -60,7 +60,7 @@ stay fast and reliable on large, high-dimensional data.
 * **[nilearn](https://nilearn.github.io/)**, the Python library for machine
   learning on neuroimaging data: I contributed the
   [FReM decoders](https://nilearn.github.io/stable/decoding/frem.html) and
-  [ReNA clustering](https://nilearn.github.io/stable/glossary.html#term-ReNA).
+  [ReNA clustering](https://nilearn.github.io/stable/modules/generated/nilearn.regions.ReNA.html).
 * **[ReNA](https://github.com/ahoyosid/ReNA)**: reference implementation of
   Recursive Nearest Agglomeration.
 * **[spark-dirty-cat](https://github.com/rakutentech/spark-dirty-cat)**:

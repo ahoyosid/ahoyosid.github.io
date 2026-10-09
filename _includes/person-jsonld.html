@@ -1,0 +1,21 @@
+{% comment %}Describes the site owner as a schema.org Person (home page only).{% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": {{ site.author | jsonify }},
+  "url": {{ site.url | append: site.baseurl | append: "/" | jsonify }},
+  "image": {{ "/img/ahoyosid.jpg" | prepend: site.baseurl | prepend: site.url | jsonify }},
+  "jobTitle": "Senior Research Scientist",
+  "worksFor": { "@type": "Organization", "name": "Rakuten Group, Inc." },
+  "workLocation": { "@type": "Place", "name": "Paris, France" },
+  "alumniOf": [
+    { "@type": "CollegeOrUniversity", "name": "Université Paris-Saclay" },
+    { "@type": "CollegeOrUniversity", "name": "École Normale Supérieure de Cachan" },
+    { "@type": "CollegeOrUniversity", "name": "Universidad Autónoma de Occidente" }
+  ],
+  "knowsAbout": ["Learning to rank", "Machine learning", "Optimal transport", "Causal inference", "Neuroimaging"],
+  "identifier": { "@type": "PropertyValue", "propertyID": "ORCID", "value": "0000-0003-1729-1927" },
+  "sameAs": {{ site.social.links | jsonify }}
+}
+</script>
