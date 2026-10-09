@@ -399,18 +399,17 @@ pre {
     margin-bottom: 15px;
 }
 
+/* Figure column of fixed width + text column. A grid (rather than flex with
+   content-sized items) lays out the same in every browser engine. */
 .publication.has-figure {
-    display: flex;
-    align-items: flex-start;
+    display: grid;
+    grid-template-columns: 150px minmax(0, 1fr);
     gap: 10px;
+    align-items: start;
 }
 
-.pub-thumb {
-    flex: 0 0 auto;
-}
-
+.pub-thumb,
 .pub-text {
-    flex: 1 1 auto;
     min-width: 0;
 }
 
@@ -422,6 +421,7 @@ pre {
 
 .pub-figure {
     width: 150px;
+    max-width: none;
     height: auto;
     padding: 3px;
     background: #fff; /* figures are drawn on white, in both themes */
@@ -435,7 +435,7 @@ pre {
 /* Phones: the figure goes above the text so the text gets the full width */
 @media (max-width: 480px) {
     .publication.has-figure {
-        flex-direction: column;
+        grid-template-columns: minmax(0, 1fr);
         gap: 8px;
     }
 
@@ -445,6 +445,7 @@ pre {
 
     .pub-figure {
         width: 220px;
+        max-width: 100%; /* safe here: the single grid column has a fixed width */
     }
 }
 
