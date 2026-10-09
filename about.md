@@ -19,8 +19,9 @@ Rakuten Ichiba, from custom models to their training pipelines.
 Previously, I was a Research Scientist at the Rakuten Institute of Technology
 in Paris (2017–2025), where I worked on recommender systems (deep
 click-through-rate prediction, encoder-based models and graph neural networks)
-and, earlier, collaborated with several Rakuten businesses, such as Rakuten
-France and Rakuten Viber.
+and, earlier, on projects with Rakuten businesses: spam detection for Rakuten
+Viber, and user purchase understanding and customer lifetime value for
+Rakuten France.
 
 I did my PhD in computer science at the Microsoft Research – Inria Joint Centre
 (MediLearn project) and Université Paris-Saclay, in the
